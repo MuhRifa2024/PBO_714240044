@@ -1,0 +1,15 @@
+C:\Users\Admin\source\repos\P3_1_714240044\P3_1_714240044\bin\Debug\P3_1_714240044.exe.config
+C:\Users\Admin\source\repos\P3_1_714240044\P3_1_714240044\bin\Debug\P3_1_714240044.exe
+C:\Users\Admin\source\repos\P3_1_714240044\P3_1_714240044\bin\Debug\P3_1_714240044.pdb
+C:\Users\Admin\source\repos\P3_1_714240044\P3_1_714240044\obj\Debug\P3_1_714240044.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\P3_1_714240044\P3_1_714240044\obj\Debug\P3_1_714240044.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\P3_1_714240044\P3_1_714240044\obj\Debug\P3_1_714240044.exe
+C:\Users\Admin\source\repos\P3_1_714240044\P3_1_714240044\obj\Debug\P3_1_714240044.pdb
+D:\pertemuan03\Praktikum\P3_1_714240044\P3_1_714240044\bin\Debug\P3_1_714240044.exe.config
+D:\pertemuan03\Praktikum\P3_1_714240044\P3_1_714240044\bin\Debug\P3_1_714240044.exe
+D:\pertemuan03\Praktikum\P3_1_714240044\P3_1_714240044\bin\Debug\P3_1_714240044.pdb
+D:\pertemuan03\Praktikum\P3_1_714240044\P3_1_714240044\obj\Debug\P3_1_714240044.csproj.AssemblyReference.cache
+D:\pertemuan03\Praktikum\P3_1_714240044\P3_1_714240044\obj\Debug\P3_1_714240044.exe.config
+D:\pertemuan03\Praktikum\P3_1_714240044\P3_1_714240044\obj\Debug\P3_1_714240044.csproj.CoreCompileInputs.cache
+D:\pertemuan03\Praktikum\P3_1_714240044\P3_1_714240044\obj\Debug\P3_1_714240044.exe
+D:\pertemuan03\Praktikum\P3_1_714240044\P3_1_714240044\obj\Debug\P3_1_714240044.pdb
