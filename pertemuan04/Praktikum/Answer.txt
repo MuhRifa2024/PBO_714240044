@@ -1,0 +1,13 @@
+Bagian I
+14. karena pada product_714240044 protected/di proteksi.
+
+19. karena valuenya belum ada/diisi dan masih kosong maka output nya pun kosong.
+
+24. karena value pada MyType sudah terisi menjadi "DVD" maka hasil outputnya adalah DVD.
+
+Bagian II
+8. Nama buku tidak muncul karena variabel yang menyimpan judul buku kemungkinan Title di kelas induk Product_714240044 tidak diinisialisasi nilainya dalam konstruktor kelas Book_714240044. Istilah dalam OOP adalah pewarisan dan Enkapsulasi
+
+9. Karena dengan menambahkan : base(type, title) memangggil/meneruskan ke konstruktor Induk sehingga tipe dan judul buku tampil pada output.
+
+19. karena pada konstruktor DVD_714240044 tidak ada "type", hanya ada "title" dan "duration" di dalam konstruktornya.
