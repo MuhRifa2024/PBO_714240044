@@ -1,0 +1,11 @@
+II
+
+42. karena outputText tidak teridentifikasi, untuk memperbaiki dengan menambahkan field agar outputText tidak error.
+
+III
+
+16. dengan menambahkan 
+else if (cbYa.Checked == false)
+{
+	status = "Belum diperbaiki";
+}
