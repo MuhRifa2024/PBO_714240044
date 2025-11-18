@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\P6_3_714240044\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5DE44D7C-9F50-4ABC-95B2-BD0E8B4D1318}|P6_3_714240044\\P6_3_714240044.csproj|c:\\users\\admin\\source\\repos\\p6_3_714240044\\p6_3_714240044\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DE44D7C-9F50-4ABC-95B2-BD0E8B4D1318}|P6_3_714240044\\P6_3_714240044.csproj|solutionrelative:p6_3_714240044\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DE44D7C-9F50-4ABC-95B2-BD0E8B4D1318}|P6_3_714240044\\P6_3_714240044.csproj|c:\\users\\admin\\source\\repos\\p6_3_714240044\\p6_3_714240044\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5DE44D7C-9F50-4ABC-95B2-BD0E8B4D1318}|P6_3_714240044\\P6_3_714240044.csproj|solutionrelative:p6_3_714240044\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\P6_3_714240044\\P6_3_714240044\\Form1.cs",
+              "RelativeDocumentMoniker": "P6_3_714240044\\Form1.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\P6_3_714240044\\P6_3_714240044\\Form1.cs",
+              "RelativeToolTip": "P6_3_714240044\\Form1.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAuwHoAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T12:14:03.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\P6_3_714240044\\P6_3_714240044\\Form1.cs",
+              "RelativeDocumentMoniker": "P6_3_714240044\\Form1.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\P6_3_714240044\\P6_3_714240044\\Form1.cs [Design]",
+              "RelativeToolTip": "P6_3_714240044\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T11:39:50.129Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

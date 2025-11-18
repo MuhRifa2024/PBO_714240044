@@ -1,0 +1,10 @@
+C:\Users\Admin\source\repos\P6_2_714240044\P6_2_714240044\bin\Debug\P6_2_714240044.exe.config
+C:\Users\Admin\source\repos\P6_2_714240044\P6_2_714240044\bin\Debug\P6_2_714240044.exe
+C:\Users\Admin\source\repos\P6_2_714240044\P6_2_714240044\bin\Debug\P6_2_714240044.pdb
+C:\Users\Admin\source\repos\P6_2_714240044\P6_2_714240044\obj\Debug\P6_2_714240044.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\P6_2_714240044\P6_2_714240044\obj\Debug\P6_2_714240044.Form1.resources
+C:\Users\Admin\source\repos\P6_2_714240044\P6_2_714240044\obj\Debug\P6_2_714240044.Properties.Resources.resources
+C:\Users\Admin\source\repos\P6_2_714240044\P6_2_714240044\obj\Debug\P6_2_714240044.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\P6_2_714240044\P6_2_714240044\obj\Debug\P6_2_714240044.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\P6_2_714240044\P6_2_714240044\obj\Debug\P6_2_714240044.exe
+C:\Users\Admin\source\repos\P6_2_714240044\P6_2_714240044\obj\Debug\P6_2_714240044.pdb
