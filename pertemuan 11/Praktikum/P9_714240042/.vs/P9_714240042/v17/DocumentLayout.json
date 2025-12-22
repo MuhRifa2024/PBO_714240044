@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Kegabutan\\PEMOGRAMMAN-2-PBO\\Pertemuan10\\Pratikum\\P9_714240042\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D1431327-60EA-46A9-8E6D-875DA3A9EF58}|P9_714240042.csproj|D:\\Kegabutan\\PEMOGRAMMAN-2-PBO\\Pertemuan10\\Pratikum\\P9_714240042\\view\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D1431327-60EA-46A9-8E6D-875DA3A9EF58}|P9_714240042.csproj|solutionrelative:view\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1431327-60EA-46A9-8E6D-875DA3A9EF58}|P9_714240042.csproj|D:\\Kegabutan\\PEMOGRAMMAN-2-PBO\\Pertemuan10\\Pratikum\\P9_714240042\\controller\\mahasiswa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1431327-60EA-46A9-8E6D-875DA3A9EF58}|P9_714240042.csproj|solutionrelative:controller\\mahasiswa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1431327-60EA-46A9-8E6D-875DA3A9EF58}|P9_714240042.csproj|d:\\kegabutan\\pemogramman-2-pbo\\pertemuan10\\pratikum\\p9_714240042\\view\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1431327-60EA-46A9-8E6D-875DA3A9EF58}|P9_714240042.csproj|solutionrelative:view\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1431327-60EA-46A9-8E6D-875DA3A9EF58}|P9_714240042.csproj|D:\\Kegabutan\\PEMOGRAMMAN-2-PBO\\Pertemuan10\\Pratikum\\P9_714240042\\controller\\koneksi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1431327-60EA-46A9-8E6D-875DA3A9EF58}|P9_714240042.csproj|solutionrelative:controller\\koneksi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1431327-60EA-46A9-8E6D-875DA3A9EF58}|P9_714240042.csproj|D:\\Kegabutan\\PEMOGRAMMAN-2-PBO\\Pertemuan10\\Pratikum\\P9_714240042\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1431327-60EA-46A9-8E6D-875DA3A9EF58}|P9_714240042.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1431327-60EA-46A9-8E6D-875DA3A9EF58}|P9_714240042.csproj|D:\\Kegabutan\\PEMOGRAMMAN-2-PBO\\Pertemuan10\\Pratikum\\P9_714240042\\model\\m_mahasiswa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1431327-60EA-46A9-8E6D-875DA3A9EF58}|P9_714240042.csproj|solutionrelative:model\\m_mahasiswa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1431327-60EA-46A9-8E6D-875DA3A9EF58}|P9_714240042.csproj|D:\\Kegabutan\\PEMOGRAMMAN-2-PBO\\Pertemuan10\\Pratikum\\P9_714240042\\view\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1431327-60EA-46A9-8E6D-875DA3A9EF58}|P9_714240042.csproj|solutionrelative:view\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\Kegabutan\\PEMOGRAMMAN-2-PBO\\Pertemuan10\\Pratikum\\P9_714240042\\view\\Form1.cs",
+              "RelativeDocumentMoniker": "view\\Form1.cs",
+              "ToolTip": "D:\\Kegabutan\\PEMOGRAMMAN-2-PBO\\Pertemuan10\\Pratikum\\P9_714240042\\view\\Form1.cs*",
+              "RelativeToolTip": "view\\Form1.cs*",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAmwIgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T06:39:38.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\Kegabutan\\PEMOGRAMMAN-2-PBO\\Pertemuan10\\Pratikum\\P9_714240042\\view\\Form1.cs",
+              "RelativeDocumentMoniker": "view\\Form1.cs",
+              "ToolTip": "D:\\Kegabutan\\PEMOGRAMMAN-2-PBO\\Pertemuan10\\Pratikum\\P9_714240042\\view\\Form1.cs [Design]*",
+              "RelativeToolTip": "view\\Form1.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T06:39:34.923Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Kegabutan\\PEMOGRAMMAN-2-PBO\\Pertemuan10\\Pratikum\\P9_714240042\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Kegabutan\\PEMOGRAMMAN-2-PBO\\Pertemuan10\\Pratikum\\P9_714240042\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T06:39:30.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "D:\\Kegabutan\\PEMOGRAMMAN-2-PBO\\Pertemuan10\\Pratikum\\P9_714240042\\view\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "view\\Form1.Designer.cs",
+              "ToolTip": "D:\\Kegabutan\\PEMOGRAMMAN-2-PBO\\Pertemuan10\\Pratikum\\P9_714240042\\view\\Form1.Designer.cs*",
+              "RelativeToolTip": "view\\Form1.Designer.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T06:39:12.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Mahasiswa.cs",
+              "DocumentMoniker": "D:\\Kegabutan\\PEMOGRAMMAN-2-PBO\\Pertemuan10\\Pratikum\\P9_714240042\\controller\\Mahasiswa.cs",
+              "RelativeDocumentMoniker": "controller\\Mahasiswa.cs",
+              "ToolTip": "D:\\Kegabutan\\PEMOGRAMMAN-2-PBO\\Pertemuan10\\Pratikum\\P9_714240042\\controller\\Mahasiswa.cs",
+              "RelativeToolTip": "controller\\Mahasiswa.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAswGoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T06:33:39.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "M_mahasiswa.cs",
+              "DocumentMoniker": "D:\\Kegabutan\\PEMOGRAMMAN-2-PBO\\Pertemuan10\\Pratikum\\P9_714240042\\model\\M_mahasiswa.cs",
+              "RelativeDocumentMoniker": "model\\M_mahasiswa.cs",
+              "ToolTip": "D:\\Kegabutan\\PEMOGRAMMAN-2-PBO\\Pertemuan10\\Pratikum\\P9_714240042\\model\\M_mahasiswa.cs",
+              "RelativeToolTip": "model\\M_mahasiswa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T06:28:40.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Koneksi.cs",
+              "DocumentMoniker": "D:\\Kegabutan\\PEMOGRAMMAN-2-PBO\\Pertemuan10\\Pratikum\\P9_714240042\\controller\\Koneksi.cs",
+              "RelativeDocumentMoniker": "controller\\Koneksi.cs",
+              "ToolTip": "D:\\Kegabutan\\PEMOGRAMMAN-2-PBO\\Pertemuan10\\Pratikum\\P9_714240042\\controller\\Koneksi.cs",
+              "RelativeToolTip": "controller\\Koneksi.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAA9wBUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T06:57:14.839Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
