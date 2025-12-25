@@ -1,0 +1,172 @@
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan09\P9_714240042\bin\Debug\P9_714240042.exe.config
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan09\P9_714240042\bin\Debug\P9_714240042.exe
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan09\P9_714240042\bin\Debug\P9_714240042.pdb
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan09\P9_714240042\bin\Debug\BouncyCastle.Cryptography.dll
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan09\P9_714240042\bin\Debug\Google.Protobuf.dll
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan09\P9_714240042\bin\Debug\K4os.Compression.LZ4.dll
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan09\P9_714240042\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan09\P9_714240042\bin\Debug\K4os.Hash.xxHash.dll
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan09\P9_714240042\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan09\P9_714240042\bin\Debug\MySql.Data.dll
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan09\P9_714240042\bin\Debug\System.Buffers.dll
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan09\P9_714240042\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan09\P9_714240042\bin\Debug\System.IO.Pipelines.dll
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan09\P9_714240042\bin\Debug\System.Memory.dll
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan09\P9_714240042\bin\Debug\System.Numerics.Vectors.dll
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan09\P9_714240042\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan09\P9_714240042\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan09\P9_714240042\bin\Debug\ZstdSharp.dll
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan09\P9_714240042\bin\Debug\BouncyCastle.Cryptography.xml
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan09\P9_714240042\bin\Debug\Google.Protobuf.pdb
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan09\P9_714240042\bin\Debug\Google.Protobuf.xml
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan09\P9_714240042\bin\Debug\K4os.Compression.LZ4.xml
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan09\P9_714240042\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan09\P9_714240042\bin\Debug\K4os.Hash.xxHash.xml
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan09\P9_714240042\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan09\P9_714240042\bin\Debug\MySql.Data.xml
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan09\P9_714240042\bin\Debug\System.Buffers.xml
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan09\P9_714240042\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan09\P9_714240042\bin\Debug\System.IO.Pipelines.xml
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan09\P9_714240042\bin\Debug\System.Memory.xml
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan09\P9_714240042\bin\Debug\System.Numerics.Vectors.xml
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan09\P9_714240042\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan09\P9_714240042\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan09\P9_714240042\obj\Debug\P9_714240042.csproj.AssemblyReference.cache
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan09\P9_714240042\obj\Debug\P9_714240042.Form1.resources
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan09\P9_714240042\obj\Debug\P9_714240042.Properties.Resources.resources
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan09\P9_714240042\obj\Debug\P9_714240042.csproj.GenerateResource.cache
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan09\P9_714240042\obj\Debug\P9_714240042.csproj.CoreCompileInputs.cache
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan09\P9_714240042\obj\Debug\P9_71424.69E88AB8.Up2Date
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan09\P9_714240042\obj\Debug\P9_714240042.exe
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan09\P9_714240042\obj\Debug\P9_714240042.pdb
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan09\P9_714240042\obj\Debug\P9_714240042.exe.config
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan10\Pratikum\P9_714240042\bin\Debug\P9_714240042.exe.config
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan10\Pratikum\P9_714240042\bin\Debug\P9_714240042.exe
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan10\Pratikum\P9_714240042\bin\Debug\P9_714240042.pdb
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan10\Pratikum\P9_714240042\bin\Debug\BouncyCastle.Cryptography.dll
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan10\Pratikum\P9_714240042\bin\Debug\Google.Protobuf.dll
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan10\Pratikum\P9_714240042\bin\Debug\K4os.Compression.LZ4.dll
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan10\Pratikum\P9_714240042\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan10\Pratikum\P9_714240042\bin\Debug\K4os.Hash.xxHash.dll
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan10\Pratikum\P9_714240042\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan10\Pratikum\P9_714240042\bin\Debug\MySql.Data.dll
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan10\Pratikum\P9_714240042\bin\Debug\System.Buffers.dll
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan10\Pratikum\P9_714240042\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan10\Pratikum\P9_714240042\bin\Debug\System.IO.Pipelines.dll
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan10\Pratikum\P9_714240042\bin\Debug\System.Memory.dll
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan10\Pratikum\P9_714240042\bin\Debug\System.Numerics.Vectors.dll
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan10\Pratikum\P9_714240042\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan10\Pratikum\P9_714240042\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan10\Pratikum\P9_714240042\bin\Debug\ZstdSharp.dll
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan10\Pratikum\P9_714240042\bin\Debug\BouncyCastle.Cryptography.xml
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan10\Pratikum\P9_714240042\bin\Debug\Google.Protobuf.pdb
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan10\Pratikum\P9_714240042\bin\Debug\Google.Protobuf.xml
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan10\Pratikum\P9_714240042\bin\Debug\K4os.Compression.LZ4.xml
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan10\Pratikum\P9_714240042\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan10\Pratikum\P9_714240042\bin\Debug\K4os.Hash.xxHash.xml
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan10\Pratikum\P9_714240042\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan10\Pratikum\P9_714240042\bin\Debug\MySql.Data.xml
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan10\Pratikum\P9_714240042\bin\Debug\System.Buffers.xml
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan10\Pratikum\P9_714240042\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan10\Pratikum\P9_714240042\bin\Debug\System.IO.Pipelines.xml
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan10\Pratikum\P9_714240042\bin\Debug\System.Memory.xml
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan10\Pratikum\P9_714240042\bin\Debug\System.Numerics.Vectors.xml
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan10\Pratikum\P9_714240042\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan10\Pratikum\P9_714240042\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan10\Pratikum\P9_714240042\obj\Debug\P9_714240042.csproj.AssemblyReference.cache
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan10\Pratikum\P9_714240042\obj\Debug\P9_714240042.Form1.resources
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan10\Pratikum\P9_714240042\obj\Debug\P9_714240042.Properties.Resources.resources
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan10\Pratikum\P9_714240042\obj\Debug\P9_714240042.csproj.GenerateResource.cache
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan10\Pratikum\P9_714240042\obj\Debug\P9_714240042.csproj.CoreCompileInputs.cache
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan10\Pratikum\P9_714240042\obj\Debug\P9_71424.69E88AB8.Up2Date
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan10\Pratikum\P9_714240042\obj\Debug\P9_714240042.exe
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan10\Pratikum\P9_714240042\obj\Debug\P9_714240042.pdb
+D:\Kegabutan\PEMOGRAMMAN-2-PBO\Pertemuan10\Pratikum\P9_714240042\obj\Debug\P9_714240042.exe.config
+C:\Users\LABKOM-FLTB\PBO_714240044\pertemuan 11\P9_714240042\bin\Debug\P9_714240042.exe.config
+C:\Users\LABKOM-FLTB\PBO_714240044\pertemuan 11\P9_714240042\bin\Debug\P9_714240042.exe
+C:\Users\LABKOM-FLTB\PBO_714240044\pertemuan 11\P9_714240042\bin\Debug\P9_714240042.pdb
+C:\Users\LABKOM-FLTB\PBO_714240044\pertemuan 11\P9_714240042\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\LABKOM-FLTB\PBO_714240044\pertemuan 11\P9_714240042\bin\Debug\Google.Protobuf.dll
+C:\Users\LABKOM-FLTB\PBO_714240044\pertemuan 11\P9_714240042\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\LABKOM-FLTB\PBO_714240044\pertemuan 11\P9_714240042\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\LABKOM-FLTB\PBO_714240044\pertemuan 11\P9_714240042\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\LABKOM-FLTB\PBO_714240044\pertemuan 11\P9_714240042\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\LABKOM-FLTB\PBO_714240044\pertemuan 11\P9_714240042\bin\Debug\MySql.Data.dll
+C:\Users\LABKOM-FLTB\PBO_714240044\pertemuan 11\P9_714240042\bin\Debug\System.Buffers.dll
+C:\Users\LABKOM-FLTB\PBO_714240044\pertemuan 11\P9_714240042\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\LABKOM-FLTB\PBO_714240044\pertemuan 11\P9_714240042\bin\Debug\System.IO.Pipelines.dll
+C:\Users\LABKOM-FLTB\PBO_714240044\pertemuan 11\P9_714240042\bin\Debug\System.Memory.dll
+C:\Users\LABKOM-FLTB\PBO_714240044\pertemuan 11\P9_714240042\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\LABKOM-FLTB\PBO_714240044\pertemuan 11\P9_714240042\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\LABKOM-FLTB\PBO_714240044\pertemuan 11\P9_714240042\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\LABKOM-FLTB\PBO_714240044\pertemuan 11\P9_714240042\bin\Debug\ZstdSharp.dll
+C:\Users\LABKOM-FLTB\PBO_714240044\pertemuan 11\P9_714240042\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\LABKOM-FLTB\PBO_714240044\pertemuan 11\P9_714240042\bin\Debug\Google.Protobuf.pdb
+C:\Users\LABKOM-FLTB\PBO_714240044\pertemuan 11\P9_714240042\bin\Debug\Google.Protobuf.xml
+C:\Users\LABKOM-FLTB\PBO_714240044\pertemuan 11\P9_714240042\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\LABKOM-FLTB\PBO_714240044\pertemuan 11\P9_714240042\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\LABKOM-FLTB\PBO_714240044\pertemuan 11\P9_714240042\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\LABKOM-FLTB\PBO_714240044\pertemuan 11\P9_714240042\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\LABKOM-FLTB\PBO_714240044\pertemuan 11\P9_714240042\bin\Debug\MySql.Data.xml
+C:\Users\LABKOM-FLTB\PBO_714240044\pertemuan 11\P9_714240042\bin\Debug\System.Buffers.xml
+C:\Users\LABKOM-FLTB\PBO_714240044\pertemuan 11\P9_714240042\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\LABKOM-FLTB\PBO_714240044\pertemuan 11\P9_714240042\bin\Debug\System.IO.Pipelines.xml
+C:\Users\LABKOM-FLTB\PBO_714240044\pertemuan 11\P9_714240042\bin\Debug\System.Memory.xml
+C:\Users\LABKOM-FLTB\PBO_714240044\pertemuan 11\P9_714240042\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\LABKOM-FLTB\PBO_714240044\pertemuan 11\P9_714240042\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\LABKOM-FLTB\PBO_714240044\pertemuan 11\P9_714240042\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\LABKOM-FLTB\PBO_714240044\pertemuan 11\P9_714240042\obj\Debug\P9_714240042.csproj.AssemblyReference.cache
+C:\Users\LABKOM-FLTB\PBO_714240044\pertemuan 11\P9_714240042\obj\Debug\P9_714240042.Form1.resources
+C:\Users\LABKOM-FLTB\PBO_714240044\pertemuan 11\P9_714240042\obj\Debug\P9_714240042.Properties.Resources.resources
+C:\Users\LABKOM-FLTB\PBO_714240044\pertemuan 11\P9_714240042\obj\Debug\P9_714240042.csproj.GenerateResource.cache
+C:\Users\LABKOM-FLTB\PBO_714240044\pertemuan 11\P9_714240042\obj\Debug\P9_714240042.csproj.CoreCompileInputs.cache
+C:\Users\LABKOM-FLTB\PBO_714240044\pertemuan 11\P9_714240042\obj\Debug\P9_71424.69E88AB8.Up2Date
+C:\Users\LABKOM-FLTB\PBO_714240044\pertemuan 11\P9_714240042\obj\Debug\P9_714240042.exe
+C:\Users\LABKOM-FLTB\PBO_714240044\pertemuan 11\P9_714240042\obj\Debug\P9_714240042.pdb
+C:\Users\LABKOM-FLTB\PBO_714240044\pertemuan 11\P9_714240042\obj\Debug\P9_714240042.view.ParentForm.resources
+C:\Users\LABKOM-FLTB\PBO_714240044\pertemuan 11\P9_714240042\obj\Debug\P9_714240042.view.FormNilai.resources
+C:\Users\Admin\PBO_714240044\pertemuan 11\Tugas\P9_714240042\bin\Debug\P9_714240042.exe.config
+C:\Users\Admin\PBO_714240044\pertemuan 11\Tugas\P9_714240042\bin\Debug\P9_714240042.exe
+C:\Users\Admin\PBO_714240044\pertemuan 11\Tugas\P9_714240042\bin\Debug\P9_714240042.pdb
+C:\Users\Admin\PBO_714240044\pertemuan 11\Tugas\P9_714240042\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\Admin\PBO_714240044\pertemuan 11\Tugas\P9_714240042\bin\Debug\Google.Protobuf.dll
+C:\Users\Admin\PBO_714240044\pertemuan 11\Tugas\P9_714240042\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Admin\PBO_714240044\pertemuan 11\Tugas\P9_714240042\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Admin\PBO_714240044\pertemuan 11\Tugas\P9_714240042\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Admin\PBO_714240044\pertemuan 11\Tugas\P9_714240042\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Admin\PBO_714240044\pertemuan 11\Tugas\P9_714240042\bin\Debug\MySql.Data.dll
+C:\Users\Admin\PBO_714240044\pertemuan 11\Tugas\P9_714240042\bin\Debug\System.Buffers.dll
+C:\Users\Admin\PBO_714240044\pertemuan 11\Tugas\P9_714240042\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\Admin\PBO_714240044\pertemuan 11\Tugas\P9_714240042\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Admin\PBO_714240044\pertemuan 11\Tugas\P9_714240042\bin\Debug\System.Memory.dll
+C:\Users\Admin\PBO_714240044\pertemuan 11\Tugas\P9_714240042\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Admin\PBO_714240044\pertemuan 11\Tugas\P9_714240042\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Admin\PBO_714240044\pertemuan 11\Tugas\P9_714240042\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\PBO_714240044\pertemuan 11\Tugas\P9_714240042\bin\Debug\ZstdSharp.dll
+C:\Users\Admin\PBO_714240044\pertemuan 11\Tugas\P9_714240042\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\Admin\PBO_714240044\pertemuan 11\Tugas\P9_714240042\bin\Debug\Google.Protobuf.pdb
+C:\Users\Admin\PBO_714240044\pertemuan 11\Tugas\P9_714240042\bin\Debug\Google.Protobuf.xml
+C:\Users\Admin\PBO_714240044\pertemuan 11\Tugas\P9_714240042\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Admin\PBO_714240044\pertemuan 11\Tugas\P9_714240042\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Admin\PBO_714240044\pertemuan 11\Tugas\P9_714240042\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Admin\PBO_714240044\pertemuan 11\Tugas\P9_714240042\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Admin\PBO_714240044\pertemuan 11\Tugas\P9_714240042\bin\Debug\MySql.Data.xml
+C:\Users\Admin\PBO_714240044\pertemuan 11\Tugas\P9_714240042\bin\Debug\System.Buffers.xml
+C:\Users\Admin\PBO_714240044\pertemuan 11\Tugas\P9_714240042\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\Admin\PBO_714240044\pertemuan 11\Tugas\P9_714240042\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Admin\PBO_714240044\pertemuan 11\Tugas\P9_714240042\bin\Debug\System.Memory.xml
+C:\Users\Admin\PBO_714240044\pertemuan 11\Tugas\P9_714240042\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Admin\PBO_714240044\pertemuan 11\Tugas\P9_714240042\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Admin\PBO_714240044\pertemuan 11\Tugas\P9_714240042\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Admin\PBO_714240044\pertemuan 11\Tugas\P9_714240042\obj\Debug\P9_714240042.csproj.AssemblyReference.cache
+C:\Users\Admin\PBO_714240044\pertemuan 11\Tugas\P9_714240042\obj\Debug\P9_714240042.exe.config
+C:\Users\Admin\PBO_714240044\pertemuan 11\Tugas\P9_714240042\obj\Debug\P9_714240042.Form1.resources
+C:\Users\Admin\PBO_714240044\pertemuan 11\Tugas\P9_714240042\obj\Debug\P9_714240042.Properties.Resources.resources
+C:\Users\Admin\PBO_714240044\pertemuan 11\Tugas\P9_714240042\obj\Debug\P9_714240042.view.FormNilai.resources
+C:\Users\Admin\PBO_714240044\pertemuan 11\Tugas\P9_714240042\obj\Debug\P9_714240042.view.ParentForm.resources
+C:\Users\Admin\PBO_714240044\pertemuan 11\Tugas\P9_714240042\obj\Debug\P9_714240042.csproj.GenerateResource.cache
+C:\Users\Admin\PBO_714240044\pertemuan 11\Tugas\P9_714240042\obj\Debug\P9_714240042.csproj.CoreCompileInputs.cache
+C:\Users\Admin\PBO_714240044\pertemuan 11\Tugas\P9_714240042\obj\Debug\P9_71424.69E88AB8.Up2Date
+C:\Users\Admin\PBO_714240044\pertemuan 11\Tugas\P9_714240042\obj\Debug\P9_714240042.exe
+C:\Users\Admin\PBO_714240044\pertemuan 11\Tugas\P9_714240042\obj\Debug\P9_714240042.pdb
+C:\Users\Admin\PBO_714240044\pertemuan 11\Tugas\P9_714240042\obj\Debug\P9_714240042.view.FormDataMasterBarang.resources
