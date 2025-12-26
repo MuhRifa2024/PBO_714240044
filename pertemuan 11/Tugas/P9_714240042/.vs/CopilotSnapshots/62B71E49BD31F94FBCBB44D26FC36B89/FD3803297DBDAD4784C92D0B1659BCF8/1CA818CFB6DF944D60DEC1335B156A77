@@ -25,7 +25,7 @@ namespace P9_714240042.view
         public void Tampil()
         {
             DataTransaksi.DataSource = koneksi.ShowData(
-                "SELECT t_transaksi.id_transaksi, t_transaksi.id_barang, t_barang.nama_barang, t_barang.harga, t_transaksi.qty, t_transaksi.total " +
+                "SELECT id_transaksi, id_barang, nama_barang, harga, qty, total " +
             "FROM t_transaksi JOIN t_barang ON t_barang.id_barang = t_transaksi.id_barang");
 
             // Memgubah Nama Kolom Tabel
@@ -73,7 +73,7 @@ namespace P9_714240042.view
         private void comboboxIdBarang_SelectedIndexChanged(object sender, EventArgs e)
         {
             GetNamaBarang();
-            
+            HitungTotal();
         }
 
         public void GetNamaBarang()
@@ -99,8 +99,6 @@ namespace P9_714240042.view
         {
             HitungTotal();
         }
-
-
 
         public void HitungTotal()
         {
@@ -133,17 +131,14 @@ namespace P9_714240042.view
             }
 
             // Insert transaksi
-            koneksi.OpenConnection();
             string sqlInsert = "INSERT INTO t_transaksi (id_barang, qty, total) VALUES (@id_barang, @qty, @total)";
             MySqlCommand cmdInsert = new MySqlCommand(sqlInsert);
             cmdInsert.Parameters.AddWithValue("@id_barang", comboboxIdBarang.Text);
             cmdInsert.Parameters.AddWithValue("@qty", textboxQty.Text);
             cmdInsert.Parameters.AddWithValue("@total", textboxTotal.Text);
             koneksi.ExecuteQuery(cmdInsert);
-            koneksi.CloseConnection();
 
             MessageBox.Show("Transaksi berhasil disimpan.", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            RefreshForm();
             Tampil();
 
         }
@@ -176,18 +171,15 @@ namespace P9_714240042.view
             }
 
             // Update transaksi
-            koneksi.OpenConnection();
             string sqlUpdate = "UPDATE t_transaksi SET qty = @qty, total = @total WHERE id_transaksi = @id_transaksi";
             MySqlCommand cmdUpdate = new MySqlCommand(sqlUpdate);
             cmdUpdate.Parameters.AddWithValue("@qty", textboxQty.Text);
             cmdUpdate.Parameters.AddWithValue("@total", textboxTotal.Text);
             cmdUpdate.Parameters.AddWithValue("@id_transaksi", id_transaksi);
             koneksi.ExecuteQuery(cmdUpdate);
-            koneksi.CloseConnection();
 
             MessageBox.Show("Transaksi berhasil diubah.", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
             RefreshForm();
-            Tampil();
         }
 
         private void btnDelete_Click(object sender, EventArgs e)
@@ -207,33 +199,24 @@ namespace P9_714240042.view
 
             if (result == DialogResult.Yes)
             {
-                koneksi.OpenConnection();
                 string sqlDelete = "DELETE FROM t_transaksi WHERE id_transaksi = @id_transaksi";
                 MySqlCommand cmdDelete = new MySqlCommand(sqlDelete);
                 cmdDelete.Parameters.AddWithValue("@id_transaksi", id_transaksi);
                 koneksi.ExecuteQuery(cmdDelete);
-                koneksi.CloseConnection();
+
                 MessageBox.Show("Transaksi berhasil dihapus.", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 RefreshForm();
-                Tampil();
             }
         }
 
         private void textboxCari_TextChanged(object sender, EventArgs e)
         {
-            koneksi.OpenConnection();
-            string sql = "SELECT t_transaksi.id_transaksi, t_transaksi.id_barang, t_barang.nama_barang, t_barang.harga, t_transaksi.qty, t_transaksi.total " +
+            string sql = "SELECT id_transaksi, id_barang, nama_barang, harga, qty, total " +
                  "FROM t_transaksi JOIN t_barang ON t_barang.id_barang = t_transaksi.id_barang " +
-                 "WHERE t_barang.nama_barang LIKE @param OR t_transaksi.id_barang LIKE @param";
-            DataTransaksi.DataSource = koneksi.ShowDataParam(
+                 "WHERE nama_barang LIKE @param";
+    DataTransaksi.DataSource = koneksi.ShowDataParam(
         sql, new MySqlParameter("@param", "%" + textboxCari.Text + "%")
     );
-            koneksi.CloseConnection();
-        }
-
-        private void textboxQty_TextChanged(object sender, EventArgs e)
-        {
-            HitungTotal();
         }
     }
 }

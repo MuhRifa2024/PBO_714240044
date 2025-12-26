@@ -51,14 +51,18 @@
             this.btnChange = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
             this.btnRefresh = new System.Windows.Forms.Button();
+            this.DataTransaksi = new System.Windows.Forms.DataGridView();
+            this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupboxTransaksi.SuspendLayout();
             this.groupboxBarang.SuspendLayout();
             this.groupBox4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.DataTransaksi)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.DataTransaksi);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(955, 242);
@@ -83,6 +87,7 @@
             this.textboxCari.Name = "textboxCari";
             this.textboxCari.Size = new System.Drawing.Size(262, 20);
             this.textboxCari.TabIndex = 5;
+            this.textboxCari.TextChanged += new System.EventHandler(this.textboxCari_TextChanged);
             // 
             // label6
             // 
@@ -157,6 +162,7 @@
             this.textboxQty.Name = "textboxQty";
             this.textboxQty.Size = new System.Drawing.Size(220, 20);
             this.textboxQty.TabIndex = 2;
+            this.textboxQty.TextChanged += new System.EventHandler(this.textboxQty_TextChanged);
             // 
             // textboxTotal
             // 
@@ -219,6 +225,8 @@
             this.comboboxIdBarang.Name = "comboboxIdBarang";
             this.comboboxIdBarang.Size = new System.Drawing.Size(220, 21);
             this.comboboxIdBarang.TabIndex = 3;
+            this.comboboxIdBarang.SelectedIndexChanged += new System.EventHandler(this.comboboxIdBarang_SelectedIndexChanged);
+            this.comboboxIdBarang.TextChanged += new System.EventHandler(this.comboboxIdBarang_TextChanged);
             // 
             // textboxHarga
             // 
@@ -255,6 +263,7 @@
             this.btnDelete.TabIndex = 3;
             this.btnDelete.Text = "Hapus";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnChange
             // 
@@ -264,6 +273,7 @@
             this.btnChange.TabIndex = 2;
             this.btnChange.Text = "Ubah";
             this.btnChange.UseVisualStyleBackColor = true;
+            this.btnChange.Click += new System.EventHandler(this.btnChange_Click);
             // 
             // btnSave
             // 
@@ -273,6 +283,7 @@
             this.btnSave.TabIndex = 1;
             this.btnSave.Text = "Simpan";
             this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // btnRefresh
             // 
@@ -282,6 +293,16 @@
             this.btnRefresh.TabIndex = 0;
             this.btnRefresh.Text = "Refresh";
             this.btnRefresh.UseVisualStyleBackColor = true;
+            this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
+            // 
+            // DataTransaksi
+            // 
+            this.DataTransaksi.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DataTransaksi.Location = new System.Drawing.Point(0, 11);
+            this.DataTransaksi.Name = "DataTransaksi";
+            this.DataTransaksi.Size = new System.Drawing.Size(954, 230);
+            this.DataTransaksi.TabIndex = 0;
+            this.DataTransaksi.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataTransaksi_CellClick);
             // 
             // FormTransaksiBarang
             // 
@@ -295,6 +316,8 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "FormTransaksiBarang";
             this.Text = "FormTransaksiBarang";
+            this.Load += new System.EventHandler(this.FormTransaksiBarang_Load);
+            this.groupBox1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupboxTransaksi.ResumeLayout(false);
@@ -302,6 +325,7 @@
             this.groupboxBarang.ResumeLayout(false);
             this.groupboxBarang.PerformLayout();
             this.groupBox4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.DataTransaksi)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -331,5 +355,6 @@
         private System.Windows.Forms.Button btnChange;
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.Button btnRefresh;
+        private System.Windows.Forms.DataGridView DataTransaksi;
     }
 }

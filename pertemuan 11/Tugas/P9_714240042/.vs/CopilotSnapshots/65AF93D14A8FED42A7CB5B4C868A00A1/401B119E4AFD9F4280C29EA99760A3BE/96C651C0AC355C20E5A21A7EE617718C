@@ -224,7 +224,7 @@ namespace P9_714240042.view
             koneksi.OpenConnection();
             string sql = "SELECT t_transaksi.id_transaksi, t_transaksi.id_barang, t_barang.nama_barang, t_barang.harga, t_transaksi.qty, t_transaksi.total " +
                  "FROM t_transaksi JOIN t_barang ON t_barang.id_barang = t_transaksi.id_barang " +
-                 "WHERE t_barang.nama_barang LIKE @param OR t_transaksi.id_barang LIKE @param";
+                 "WHERE t_barang.nama_barang LIKE @param";
             DataTransaksi.DataSource = koneksi.ShowDataParam(
         sql, new MySqlParameter("@param", "%" + textboxCari.Text + "%")
     );

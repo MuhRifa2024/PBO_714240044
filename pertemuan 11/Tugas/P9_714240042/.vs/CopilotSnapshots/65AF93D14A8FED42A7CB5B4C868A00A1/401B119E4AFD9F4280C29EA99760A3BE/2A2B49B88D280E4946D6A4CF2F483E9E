@@ -222,9 +222,9 @@ namespace P9_714240042.view
         private void textboxCari_TextChanged(object sender, EventArgs e)
         {
             koneksi.OpenConnection();
-            string sql = "SELECT t_transaksi.id_transaksi, t_transaksi.id_barang, t_barang.nama_barang, t_barang.harga, t_transaksi.qty, t_transaksi.total " +
+            string sql = "SELECT id_transaksi, id_barang, nama_barang, harga, qty, total " +
                  "FROM t_transaksi JOIN t_barang ON t_barang.id_barang = t_transaksi.id_barang " +
-                 "WHERE t_barang.nama_barang LIKE @param OR t_transaksi.id_barang LIKE @param";
+                 "WHERE nama_barang LIKE @param";
             DataTransaksi.DataSource = koneksi.ShowDataParam(
         sql, new MySqlParameter("@param", "%" + textboxCari.Text + "%")
     );

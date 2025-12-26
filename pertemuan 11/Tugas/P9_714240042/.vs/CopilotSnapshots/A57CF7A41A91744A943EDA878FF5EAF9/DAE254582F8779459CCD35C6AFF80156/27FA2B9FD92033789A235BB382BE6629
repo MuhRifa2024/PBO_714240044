@@ -40,10 +40,10 @@ namespace P9_714240042
 
         public void ExecuteQuery(MySqlCommand command)
         {
-            
+            OpenConnection();
             command.Connection = kon;
             command.ExecuteNonQuery();
-            
+            CloseConnection();
         }
 
         public object ShowDataParam(string query, params MySqlParameter[] parameters)

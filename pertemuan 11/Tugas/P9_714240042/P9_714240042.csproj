@@ -98,9 +98,11 @@
     <Compile Include="controller\Barang.cs" />
     <Compile Include="controller\Mahasiswa.cs" />
     <Compile Include="controller\Nilai.cs" />
+    <Compile Include="controller\Transaksi.cs" />
     <Compile Include="model\M_Barang.cs" />
     <Compile Include="model\M_mahasiswa.cs" />
     <Compile Include="model\M_nilai.cs" />
+    <Compile Include="model\M_Transaksi.cs" />
     <Compile Include="view\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
