@@ -170,3 +170,4 @@ C:\Users\Admin\PBO_714240044\pertemuan 11\Tugas\P9_714240042\obj\Debug\P9_71424.
 C:\Users\Admin\PBO_714240044\pertemuan 11\Tugas\P9_714240042\obj\Debug\P9_714240042.exe
 C:\Users\Admin\PBO_714240044\pertemuan 11\Tugas\P9_714240042\obj\Debug\P9_714240042.pdb
 C:\Users\Admin\PBO_714240044\pertemuan 11\Tugas\P9_714240042\obj\Debug\P9_714240042.view.FormDataMasterBarang.resources
+C:\Users\Admin\PBO_714240044\pertemuan 11\Tugas\P9_714240042\obj\Debug\P9_714240042.view.FormTransaksiBarang.resources
