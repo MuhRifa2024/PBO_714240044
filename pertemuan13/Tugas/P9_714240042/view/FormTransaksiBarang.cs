@@ -1,0 +1,266 @@
+﻿using MySql.Data.MySqlClient;
+using P9_714240042.lib;
+using P9_714240042.model;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace P9_714240042.view
+{
+    public partial class FormTransaksiBarang : Form
+    {
+        Koneksi koneksi = new Koneksi();
+        M_Transaksi m_Transaksi = new M_Transaksi();
+        string id_transaksi;
+        public FormTransaksiBarang()
+        {
+            InitializeComponent();
+        }
+
+        public void Tampil()
+        {
+            DataTransaksi.DataSource = koneksi.ShowData(
+                "SELECT t_transaksi.id_transaksi, t_transaksi.id_barang, t_barang.nama_barang, t_barang.harga, t_transaksi.qty, t_transaksi.total " +
+            "FROM t_transaksi JOIN t_barang ON t_barang.id_barang = t_transaksi.id_barang");
+
+            // Memgubah Nama Kolom Tabel
+            DataTransaksi.Columns[0].HeaderText = "ID";
+            DataTransaksi.Columns[1].HeaderText = "ID Barang";
+            DataTransaksi.Columns[2].HeaderText = "Nama Barang";
+            DataTransaksi.Columns[3].HeaderText = "Harga";
+            DataTransaksi.Columns[4].HeaderText = "QTY";
+            DataTransaksi.Columns[5].HeaderText = "Total Harga";
+
+            DataTransaksi.Columns[3].DefaultCellStyle.Format = "Rp #,###";
+            DataTransaksi.Columns[5].DefaultCellStyle.Format = "Rp #,###";
+        }
+
+        private void FormTransaksiBarang_Load(object sender, EventArgs e)
+        {
+            Tampil();
+            GetBarang();
+        }
+
+        public void GetBarang()
+        {
+            comboboxIdBarang.Items.Clear();
+            koneksi.OpenConnection();
+            MySqlDataReader reader = koneksi.reader("SELECT id_barang FROM t_barang");
+            while (reader.Read())
+            {
+                comboboxIdBarang.Items.Add(reader["id_barang"].ToString());
+            }
+            reader.Close();
+            koneksi.CloseConnection();
+        }
+
+        private void DataTransaksi_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex < 0) return;
+            id_transaksi = DataTransaksi.Rows[e.RowIndex].Cells[0].Value.ToString();
+            comboboxIdBarang.Text = DataTransaksi.Rows[e.RowIndex].Cells[1].Value.ToString();
+            textboxNamaBarang.Text = DataTransaksi.Rows[e.RowIndex].Cells[2].Value.ToString();
+            textboxHarga.Text = DataTransaksi.Rows[e.RowIndex].Cells[3].Value.ToString();
+            textboxQty.Text = DataTransaksi.Rows[e.RowIndex].Cells[4].Value.ToString();
+            textboxTotal.Text = DataTransaksi.Rows[e.RowIndex].Cells[5].Value.ToString();
+        }
+
+        private void comboboxIdBarang_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            GetNamaBarang();
+            
+        }
+
+        public void GetNamaBarang()
+        {
+            if (string.IsNullOrWhiteSpace(comboboxIdBarang.Text))
+                return;
+            string sql = "SELECT nama_barang, harga FROM t_barang WHERE id_barang = @id_barang";
+            DataTable dt = (DataTable)koneksi.ShowDataParam(
+                sql, new MySqlParameter("@id_barang", comboboxIdBarang.Text));
+            if (dt.Rows.Count > 0)
+            {
+                textboxNamaBarang.Text = dt.Rows[0]["nama_barang"].ToString();
+                textboxHarga.Text = dt.Rows[0]["harga"].ToString();
+            }
+            else
+            {
+                textboxNamaBarang.Text = "";
+                textboxHarga.Text = "";
+            }
+        }
+
+        private void comboboxIdBarang_TextChanged(object sender, EventArgs e)
+        {
+            HitungTotal();
+        }
+
+
+
+        public void HitungTotal()
+        {
+            int harga = 0, qty = 0;
+            int.TryParse(textboxHarga.Text, out harga);
+            int.TryParse(textboxQty.Text, out qty);
+            int total = harga * qty;
+            textboxTotal.Text = total.ToString();
+        }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(comboboxIdBarang.Text) ||
+        string.IsNullOrWhiteSpace(textboxQty.Text))
+            {
+                MessageBox.Show("Lengkapi data terlebih dahulu!", "Peringatan",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            // Cek duplikasi id_barang
+            string sqlCek = "SELECT COUNT(*) FROM t_transaksi WHERE id_barang = @id_barang";
+            DataTable dtCek = (DataTable)koneksi.ShowDataParam(sqlCek, new MySqlParameter("@id_barang", comboboxIdBarang.Text));
+            int count = Convert.ToInt32(dtCek.Rows[0][0]);
+
+            if (count > 0)
+            {
+                MessageBox.Show("Id Barang sudah ada di transaksi, silakan gunakan fitur Ubah.", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            // Insert transaksi
+            koneksi.OpenConnection();
+            string sqlInsert = "INSERT INTO t_transaksi (id_barang, qty, total) VALUES (@id_barang, @qty, @total)";
+            MySqlCommand cmdInsert = new MySqlCommand(sqlInsert);
+            cmdInsert.Parameters.AddWithValue("@id_barang", comboboxIdBarang.Text);
+            cmdInsert.Parameters.AddWithValue("@qty", textboxQty.Text);
+            cmdInsert.Parameters.AddWithValue("@total", textboxTotal.Text);
+            koneksi.ExecuteQuery(cmdInsert);
+            koneksi.CloseConnection();
+
+            MessageBox.Show("Transaksi berhasil disimpan.", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            RefreshForm();
+            Tampil();
+
+        }
+
+        public void RefreshForm()
+        {
+            // Reset semua input
+            comboboxIdBarang.SelectedIndex = -1;
+            textboxNamaBarang.Text = "";
+            textboxHarga.Text = "";
+            textboxQty.Text = "";
+            textboxTotal.Text = "";
+            textboxCari.Text = "";
+        }
+
+        private void btnRefresh_Click(object sender, EventArgs e)
+        {
+            RefreshForm();
+            Tampil();
+        }
+
+        private void btnChange_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(id_transaksi) ||
+        string.IsNullOrWhiteSpace(textboxQty.Text))
+            {
+                MessageBox.Show("Pilih data yang akan diubah dan lengkapi quantity!", "Peringatan",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            // Update transaksi
+            koneksi.OpenConnection();
+            string sqlUpdate = "UPDATE t_transaksi SET qty = @qty, total = @total WHERE id_transaksi = @id_transaksi";
+            MySqlCommand cmdUpdate = new MySqlCommand(sqlUpdate);
+            cmdUpdate.Parameters.AddWithValue("@qty", textboxQty.Text);
+            cmdUpdate.Parameters.AddWithValue("@total", textboxTotal.Text);
+            cmdUpdate.Parameters.AddWithValue("@id_transaksi", id_transaksi);
+            koneksi.ExecuteQuery(cmdUpdate);
+            koneksi.CloseConnection();
+
+            MessageBox.Show("Transaksi berhasil diubah.", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            RefreshForm();
+            Tampil();
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(id_transaksi))
+            {
+                MessageBox.Show("Pilih data yang akan dihapus!", "Peringatan",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            DialogResult result = MessageBox.Show(
+                "Apakah yakin ingin menghapus transaksi ini?",
+                "Konfirmasi Hapus",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Question);
+
+            if (result == DialogResult.Yes)
+            {
+                koneksi.OpenConnection();
+                string sqlDelete = "DELETE FROM t_transaksi WHERE id_transaksi = @id_transaksi";
+                MySqlCommand cmdDelete = new MySqlCommand(sqlDelete);
+                cmdDelete.Parameters.AddWithValue("@id_transaksi", id_transaksi);
+                koneksi.ExecuteQuery(cmdDelete);
+                koneksi.CloseConnection();
+                MessageBox.Show("Transaksi berhasil dihapus.", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                RefreshForm();
+                Tampil();
+            }
+        }
+
+        private void textboxCari_TextChanged(object sender, EventArgs e)
+        {
+            koneksi.OpenConnection();
+            string sql = "SELECT t_transaksi.id_transaksi, t_transaksi.id_barang, t_barang.nama_barang, t_barang.harga, t_transaksi.qty, t_transaksi.total " +
+                 "FROM t_transaksi JOIN t_barang ON t_barang.id_barang = t_transaksi.id_barang " +
+                 "WHERE t_barang.nama_barang LIKE @param OR t_transaksi.id_barang LIKE @param";
+            DataTransaksi.DataSource = koneksi.ShowDataParam(
+        sql, new MySqlParameter("@param", "%" + textboxCari.Text + "%")
+    );
+            koneksi.CloseConnection();
+        }
+
+        private void textboxQty_TextChanged(object sender, EventArgs e)
+        {
+            HitungTotal();
+        }
+
+        private void btnExport_Click(object sender, EventArgs e)
+        {
+            SaveFileDialog save = new SaveFileDialog();
+            save.Filter = "Excel Documents (*.xlsx)|*.xlsx";
+            save.FileName = "Report Barang.xlsx";
+            save.OverwritePrompt = false;
+
+            if (save.ShowDialog() == DialogResult.OK)
+            {
+                string filePath = save.FileName;
+
+                if (File.Exists(filePath))
+                    File.Delete(filePath);
+
+                Excel excel_lib = new Excel();
+                excel_lib.ExportToExcel(DataTransaksi, filePath);
+
+                MessageBox.Show(
+                    "Data berhasil diekspor ke file excel",
+                    "Informasi",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Information);
+            }
+        }
+    }
+}
