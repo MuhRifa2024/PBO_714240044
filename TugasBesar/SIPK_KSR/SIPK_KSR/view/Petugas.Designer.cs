@@ -29,9 +29,10 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.dgvAnggota = new System.Windows.Forms.DataGridView();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cmbJabatan = new System.Windows.Forms.ComboBox();
             this.tbAngkatan = new System.Windows.Forms.TextBox();
             this.tbNoHP = new System.Windows.Forms.TextBox();
             this.tbNpm = new System.Windows.Forms.TextBox();
@@ -41,13 +42,15 @@
             this.label1 = new System.Windows.Forms.Label();
             this.tbNama = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.tbCari = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.btnRefresh = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnEdit = new System.Windows.Forms.Button();
             this.btnSimpan = new System.Windows.Forms.Button();
+            this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAnggota)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
@@ -55,6 +58,8 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.dgvAnggota);
+            this.groupBox1.ForeColor = System.Drawing.Color.Yellow;
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(925, 220);
@@ -62,10 +67,19 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Anggota KSR";
             // 
+            // dgvAnggota
+            // 
+            this.dgvAnggota.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvAnggota.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgvAnggota.Location = new System.Drawing.Point(3, 16);
+            this.dgvAnggota.Name = "dgvAnggota";
+            this.dgvAnggota.Size = new System.Drawing.Size(919, 201);
+            this.dgvAnggota.TabIndex = 0;
+            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.label6);
-            this.groupBox2.Controls.Add(this.comboBox1);
+            this.groupBox2.Controls.Add(this.cmbJabatan);
             this.groupBox2.Controls.Add(this.tbAngkatan);
             this.groupBox2.Controls.Add(this.tbNoHP);
             this.groupBox2.Controls.Add(this.tbNpm);
@@ -90,13 +104,13 @@
             this.label6.TabIndex = 8;
             this.label6.Text = "Jabatan";
             // 
-            // comboBox1
+            // cmbJabatan
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(95, 146);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(230, 21);
-            this.comboBox1.TabIndex = 7;
+            this.cmbJabatan.FormattingEnabled = true;
+            this.cmbJabatan.Location = new System.Drawing.Point(95, 146);
+            this.cmbJabatan.Name = "cmbJabatan";
+            this.cmbJabatan.Size = new System.Drawing.Size(230, 21);
+            this.cmbJabatan.TabIndex = 7;
             // 
             // tbAngkatan
             // 
@@ -164,7 +178,7 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.textBox5);
+            this.groupBox3.Controls.Add(this.tbCari);
             this.groupBox3.Controls.Add(this.label5);
             this.groupBox3.Location = new System.Drawing.Point(535, 226);
             this.groupBox3.Name = "groupBox3";
@@ -173,12 +187,12 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Operation";
             // 
-            // textBox5
+            // tbCari
             // 
-            this.textBox5.Location = new System.Drawing.Point(87, 33);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(260, 20);
-            this.textBox5.TabIndex = 8;
+            this.tbCari.Location = new System.Drawing.Point(87, 33);
+            this.tbCari.Name = "tbCari";
+            this.tbCari.Size = new System.Drawing.Size(260, 20);
+            this.tbCari.TabIndex = 8;
             // 
             // label5
             // 
@@ -204,44 +218,51 @@
             // 
             // btnRefresh
             // 
+            this.btnRefresh.BackColor = System.Drawing.Color.Cyan;
             this.btnRefresh.Location = new System.Drawing.Point(192, 24);
             this.btnRefresh.Name = "btnRefresh";
             this.btnRefresh.Size = new System.Drawing.Size(155, 25);
             this.btnRefresh.TabIndex = 3;
             this.btnRefresh.Text = "Refresh";
-            this.btnRefresh.UseVisualStyleBackColor = true;
+            this.btnRefresh.UseVisualStyleBackColor = false;
             // 
             // btnDelete
             // 
+            this.btnDelete.BackColor = System.Drawing.Color.Red;
             this.btnDelete.Location = new System.Drawing.Point(192, 75);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(155, 25);
             this.btnDelete.TabIndex = 2;
             this.btnDelete.Text = "Delete";
-            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.UseVisualStyleBackColor = false;
             // 
             // btnEdit
             // 
+            this.btnEdit.BackColor = System.Drawing.Color.Yellow;
             this.btnEdit.Location = new System.Drawing.Point(21, 75);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(155, 25);
             this.btnEdit.TabIndex = 1;
             this.btnEdit.Text = "Edit";
-            this.btnEdit.UseVisualStyleBackColor = true;
+            this.btnEdit.UseVisualStyleBackColor = false;
             // 
             // btnSimpan
             // 
+            this.btnSimpan.BackColor = System.Drawing.Color.Lime;
             this.btnSimpan.Location = new System.Drawing.Point(21, 24);
             this.btnSimpan.Name = "btnSimpan";
             this.btnSimpan.Size = new System.Drawing.Size(155, 25);
             this.btnSimpan.TabIndex = 0;
             this.btnSimpan.Text = "Simpan";
-            this.btnSimpan.UseVisualStyleBackColor = true;
+            this.btnSimpan.UseVisualStyleBackColor = false;
+            this.btnSimpan.Click += new System.EventHandler(this.btnSimpan_Click);
             // 
             // Petugas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(924, 470);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox2);
@@ -249,6 +270,9 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "Petugas";
             this.Text = "KSR";
+            this.Load += new System.EventHandler(this.Petugas_Load);
+            this.groupBox1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAnggota)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
@@ -273,12 +297,13 @@
         private System.Windows.Forms.TextBox tbNoHP;
         private System.Windows.Forms.TextBox tbNpm;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox tbCari;
         private System.Windows.Forms.Button btnRefresh;
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Button btnEdit;
         private System.Windows.Forms.Button btnSimpan;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cmbJabatan;
+        private System.Windows.Forms.DataGridView dgvAnggota;
     }
 }

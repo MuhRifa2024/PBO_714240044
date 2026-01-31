@@ -1,0 +1,41 @@
+﻿using SIPK_KSR.controller;
+using SIPK_KSR.model;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace SIPK_KSR.view
+{
+    public partial class FormPenanganan : Form
+    {
+        public FormPenanganan()
+        {
+            InitializeComponent();
+        }
+
+        string fotoPath = "";
+        private void btnPilihFoto_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog ofd = new OpenFileDialog();
+            ofd.Filter = "Image Files|*.jpg;*.jpeg;*.png";
+
+            if (ofd.ShowDialog() == DialogResult.OK)
+            {
+                fotoPath = ofd.FileName;
+                pictureBoxFoto.ImageLocation = fotoPath;
+            }
+        }
+
+        private void btnSimpan_Click(object sender, EventArgs e)
+        {
+            // Kode ini akan dilengkapi sesuai dengan kebutuhan form penanganan
+            // TODO: Lengkapi implementasi penyimpanan data penanganan
+        }
+    }
+}

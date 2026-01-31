@@ -29,43 +29,45 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.cmbxStatus = new System.Windows.Forms.ComboBox();
+            this.tbNamaPasien = new System.Windows.Forms.TextBox();
+            this.tbProdi = new System.Windows.Forms.TextBox();
+            this.tbAngkatan = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.btnPilihFoto = new System.Windows.Forms.Button();
+            this.pictureBoxFoto = new System.Windows.Forms.PictureBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.tbRujuk = new System.Windows.Forms.TextBox();
+            this.cmbTindakLanjut = new System.Windows.Forms.ComboBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.tbTindakan = new System.Windows.Forms.TextBox();
+            this.tbKeluhan = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dtTanggal = new System.Windows.Forms.DateTimePicker();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.clbPetugas = new System.Windows.Forms.CheckedListBox();
+            this.btnBatal = new System.Windows.Forms.Button();
+            this.btnReset = new System.Windows.Forms.Button();
+            this.btnSimpan = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFoto)).BeginInit();
+            this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.groupBox1.Controls.Add(this.comboBox1);
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.cmbxStatus);
+            this.groupBox1.Controls.Add(this.tbNamaPasien);
+            this.groupBox1.Controls.Add(this.tbProdi);
+            this.groupBox1.Controls.Add(this.tbAngkatan);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
@@ -77,34 +79,34 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Data Pasien";
             // 
-            // comboBox1
+            // cmbxStatus
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(97, 98);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(207, 21);
-            this.comboBox1.TabIndex = 7;
+            this.cmbxStatus.FormattingEnabled = true;
+            this.cmbxStatus.Location = new System.Drawing.Point(97, 98);
+            this.cmbxStatus.Name = "cmbxStatus";
+            this.cmbxStatus.Size = new System.Drawing.Size(207, 21);
+            this.cmbxStatus.TabIndex = 7;
             // 
-            // textBox3
+            // tbNamaPasien
             // 
-            this.textBox3.Location = new System.Drawing.Point(97, 51);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(275, 20);
-            this.textBox3.TabIndex = 6;
+            this.tbNamaPasien.Location = new System.Drawing.Point(97, 51);
+            this.tbNamaPasien.Name = "tbNamaPasien";
+            this.tbNamaPasien.Size = new System.Drawing.Size(275, 20);
+            this.tbNamaPasien.TabIndex = 6;
             // 
-            // textBox2
+            // tbProdi
             // 
-            this.textBox2.Location = new System.Drawing.Point(97, 147);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(275, 20);
-            this.textBox2.TabIndex = 5;
+            this.tbProdi.Location = new System.Drawing.Point(97, 147);
+            this.tbProdi.Name = "tbProdi";
+            this.tbProdi.Size = new System.Drawing.Size(275, 20);
+            this.tbProdi.TabIndex = 5;
             // 
-            // textBox1
+            // tbAngkatan
             // 
-            this.textBox1.Location = new System.Drawing.Point(97, 194);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(275, 20);
-            this.textBox1.TabIndex = 4;
+            this.tbAngkatan.Location = new System.Drawing.Point(97, 194);
+            this.tbAngkatan.Name = "tbAngkatan";
+            this.tbAngkatan.Size = new System.Drawing.Size(275, 20);
+            this.tbAngkatan.TabIndex = 4;
             // 
             // label4
             // 
@@ -149,18 +151,18 @@
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.groupBox2.Controls.Add(this.button1);
-            this.groupBox2.Controls.Add(this.pictureBox1);
+            this.groupBox2.Controls.Add(this.btnPilihFoto);
+            this.groupBox2.Controls.Add(this.pictureBoxFoto);
             this.groupBox2.Controls.Add(this.label9);
-            this.groupBox2.Controls.Add(this.textBox6);
-            this.groupBox2.Controls.Add(this.comboBox2);
+            this.groupBox2.Controls.Add(this.tbRujuk);
+            this.groupBox2.Controls.Add(this.cmbTindakLanjut);
             this.groupBox2.Controls.Add(this.label8);
-            this.groupBox2.Controls.Add(this.textBox5);
-            this.groupBox2.Controls.Add(this.textBox4);
+            this.groupBox2.Controls.Add(this.tbTindakan);
+            this.groupBox2.Controls.Add(this.tbKeluhan);
             this.groupBox2.Controls.Add(this.label7);
             this.groupBox2.Controls.Add(this.label6);
             this.groupBox2.Controls.Add(this.label5);
-            this.groupBox2.Controls.Add(this.dateTimePicker1);
+            this.groupBox2.Controls.Add(this.dtTanggal);
             this.groupBox2.Location = new System.Drawing.Point(395, 0);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(408, 330);
@@ -168,21 +170,76 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Data Penanganan";
             // 
-            // textBox5
+            // btnPilihFoto
             // 
-            this.textBox5.Location = new System.Drawing.Point(102, 110);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(291, 57);
-            this.textBox5.TabIndex = 5;
+            this.btnPilihFoto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnPilihFoto.Location = new System.Drawing.Point(141, 265);
+            this.btnPilihFoto.Name = "btnPilihFoto";
+            this.btnPilihFoto.Size = new System.Drawing.Size(115, 23);
+            this.btnPilihFoto.TabIndex = 11;
+            this.btnPilihFoto.Text = "Pilih Foto";
+            this.btnPilihFoto.UseVisualStyleBackColor = false;
+            this.btnPilihFoto.Click += new System.EventHandler(this.btnPilihFoto_Click);
             // 
-            // textBox4
+            // pictureBoxFoto
             // 
-            this.textBox4.Location = new System.Drawing.Point(102, 51);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(291, 53);
-            this.textBox4.TabIndex = 4;
+            this.pictureBoxFoto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBoxFoto.Location = new System.Drawing.Point(31, 227);
+            this.pictureBoxFoto.Name = "pictureBoxFoto";
+            this.pictureBoxFoto.Size = new System.Drawing.Size(104, 97);
+            this.pictureBoxFoto.TabIndex = 10;
+            this.pictureBoxFoto.TabStop = false;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(28, 211);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(107, 13);
+            this.label9.TabIndex = 9;
+            this.label9.Text = "Foto Penanganan";
+            // 
+            // tbRujuk
+            // 
+            this.tbRujuk.Location = new System.Drawing.Point(226, 176);
+            this.tbRujuk.Name = "tbRujuk";
+            this.tbRujuk.Size = new System.Drawing.Size(167, 20);
+            this.tbRujuk.TabIndex = 8;
+            // 
+            // cmbTindakLanjut
+            // 
+            this.cmbTindakLanjut.FormattingEnabled = true;
+            this.cmbTindakLanjut.Location = new System.Drawing.Point(119, 175);
+            this.cmbTindakLanjut.Name = "cmbTindakLanjut";
+            this.cmbTindakLanjut.Size = new System.Drawing.Size(101, 21);
+            this.cmbTindakLanjut.TabIndex = 7;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(28, 183);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(85, 13);
+            this.label8.TabIndex = 6;
+            this.label8.Text = "Tindak Lanjut";
+            // 
+            // tbTindakan
+            // 
+            this.tbTindakan.Location = new System.Drawing.Point(102, 110);
+            this.tbTindakan.Multiline = true;
+            this.tbTindakan.Name = "tbTindakan";
+            this.tbTindakan.Size = new System.Drawing.Size(291, 57);
+            this.tbTindakan.TabIndex = 5;
+            // 
+            // tbKeluhan
+            // 
+            this.tbKeluhan.Location = new System.Drawing.Point(102, 51);
+            this.tbKeluhan.Multiline = true;
+            this.tbKeluhan.Name = "tbKeluhan";
+            this.tbKeluhan.Size = new System.Drawing.Size(291, 53);
+            this.tbKeluhan.TabIndex = 4;
             // 
             // label7
             // 
@@ -214,16 +271,17 @@
             this.label5.TabIndex = 1;
             this.label5.Text = "Tanggal";
             // 
-            // dateTimePicker1
+            // dtTanggal
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(102, 19);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(291, 20);
-            this.dateTimePicker1.TabIndex = 0;
+            this.dtTanggal.Location = new System.Drawing.Point(102, 19);
+            this.dtTanggal.Name = "dtTanggal";
+            this.dtTanggal.Size = new System.Drawing.Size(291, 20);
+            this.dtTanggal.TabIndex = 0;
             // 
             // groupBox3
             // 
             this.groupBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.groupBox3.Controls.Add(this.clbPetugas);
             this.groupBox3.Location = new System.Drawing.Point(0, 254);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(389, 197);
@@ -231,92 +289,49 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Petugas Yang Menangani";
             // 
-            // label8
+            // clbPetugas
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(28, 183);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(85, 13);
-            this.label8.TabIndex = 6;
-            this.label8.Text = "Tindak Lanjut";
+            this.clbPetugas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.clbPetugas.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.clbPetugas.FormattingEnabled = true;
+            this.clbPetugas.Location = new System.Drawing.Point(3, 16);
+            this.clbPetugas.Name = "clbPetugas";
+            this.clbPetugas.Size = new System.Drawing.Size(383, 178);
+            this.clbPetugas.TabIndex = 0;
             // 
-            // comboBox2
+            // btnBatal
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(119, 175);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(101, 21);
-            this.comboBox2.TabIndex = 7;
+            this.btnBatal.BackColor = System.Drawing.Color.Red;
+            this.btnBatal.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBatal.Location = new System.Drawing.Point(608, 387);
+            this.btnBatal.Name = "btnBatal";
+            this.btnBatal.Size = new System.Drawing.Size(195, 51);
+            this.btnBatal.TabIndex = 1;
+            this.btnBatal.Text = "Batal";
+            this.btnBatal.UseVisualStyleBackColor = false;
             // 
-            // textBox6
+            // btnReset
             // 
-            this.textBox6.Location = new System.Drawing.Point(226, 176);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(167, 20);
-            this.textBox6.TabIndex = 8;
+            this.btnReset.BackColor = System.Drawing.Color.Silver;
+            this.btnReset.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReset.Location = new System.Drawing.Point(395, 387);
+            this.btnReset.Name = "btnReset";
+            this.btnReset.Size = new System.Drawing.Size(195, 51);
+            this.btnReset.TabIndex = 2;
+            this.btnReset.Text = "Reset";
+            this.btnReset.UseVisualStyleBackColor = false;
             // 
-            // label9
+            // btnSimpan
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(28, 211);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(107, 13);
-            this.label9.TabIndex = 9;
-            this.label9.Text = "Foto Penanganan";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.pictureBox1.Location = new System.Drawing.Point(31, 227);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(104, 97);
-            this.pictureBox1.TabIndex = 10;
-            this.pictureBox1.TabStop = false;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button1.Location = new System.Drawing.Point(141, 265);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(115, 23);
-            this.button1.TabIndex = 11;
-            this.button1.Text = "Pilih Foto";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Red;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(608, 387);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(195, 51);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Batal";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.Silver;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(395, 387);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(195, 51);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Reset";
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.Lime;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(395, 336);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(408, 45);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Simpan";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btnSimpan.BackColor = System.Drawing.Color.Lime;
+            this.btnSimpan.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSimpan.Location = new System.Drawing.Point(395, 336);
+            this.btnSimpan.Name = "btnSimpan";
+            this.btnSimpan.Size = new System.Drawing.Size(408, 45);
+            this.btnSimpan.TabIndex = 3;
+            this.btnSimpan.Text = "Simpan";
+            this.btnSimpan.UseVisualStyleBackColor = false;
+            this.btnSimpan.Click += new System.EventHandler(this.btnSimpan_Click);
             // 
             // FormPenanganan
             // 
@@ -324,9 +339,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnSimpan);
+            this.Controls.Add(this.btnReset);
+            this.Controls.Add(this.btnBatal);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox1);
@@ -336,7 +351,8 @@
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFoto)).EndInit();
+            this.groupBox3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -350,24 +366,25 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.ComboBox cmbxStatus;
+        private System.Windows.Forms.TextBox tbNamaPasien;
+        private System.Windows.Forms.TextBox tbProdi;
+        private System.Windows.Forms.TextBox tbAngkatan;
+        private System.Windows.Forms.DateTimePicker dtTanggal;
+        private System.Windows.Forms.TextBox tbTindakan;
+        private System.Windows.Forms.TextBox tbKeluhan;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button btnPilihFoto;
+        private System.Windows.Forms.PictureBox pictureBoxFoto;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.TextBox tbRujuk;
+        private System.Windows.Forms.ComboBox cmbTindakLanjut;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnBatal;
+        private System.Windows.Forms.Button btnReset;
+        private System.Windows.Forms.Button btnSimpan;
+        private System.Windows.Forms.CheckedListBox clbPetugas;
     }
 }

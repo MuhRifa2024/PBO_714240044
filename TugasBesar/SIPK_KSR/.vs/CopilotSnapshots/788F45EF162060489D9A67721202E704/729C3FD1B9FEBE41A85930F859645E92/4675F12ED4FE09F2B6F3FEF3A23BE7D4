@@ -1,0 +1,81 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using MySql.Data.MySqlClient;
+
+namespace SIPK_KSR.controller
+{
+    internal class Koneksi
+    {
+        string connectionString = "Server=localhost;Database=tb_sipk;Uid=root;Pwd=;";
+        MySqlConnection kon;
+
+        public MySqlConnection GetConnection()
+        {
+            if (kon == null)
+                kon = new MySqlConnection(connectionString);
+
+            return kon;
+        }
+
+        public void OpenConnection()
+        {
+            if (kon == null)
+                kon = new MySqlConnection(connectionString);
+
+            if (kon.State == ConnectionState.Closed)
+                kon.Open();
+        }
+
+        public void CloseConnection()
+        {
+            if (kon != null && kon.State == ConnectionState.Open)
+                kon.Close();
+        }
+
+        public DataTable ShowData(string query)
+        {
+            DataTable table = new DataTable();
+            OpenConnection();
+
+            MySqlCommand cmd = new MySqlCommand(query, kon);
+            MySqlDataAdapter adapter = new MySqlDataAdapter(cmd);
+            adapter.Fill(table);
+
+            CloseConnection();
+            return table;
+        }
+
+        public DataTable ShowDataParam(string query, params MySqlParameter[] parameters)
+        {
+            DataTable table = new DataTable();
+            OpenConnection();
+
+            MySqlCommand cmd = new MySqlCommand(query, kon);
+            if (parameters != null)
+            {
+                cmd.Parameters.AddRange(parameters);
+            }
+            MySqlDataAdapter adapter = new MySqlDataAdapter(cmd);
+            adapter.Fill(table);
+
+            CloseConnection();
+            return table;
+        }
+
+        public void ExecuteQuery(MySqlCommand cmd)
+        {
+            cmd.Connection = kon;
+            cmd.ExecuteNonQuery();
+        }
+
+        public object ExecuteScalar(MySqlCommand cmd)
+        {
+            cmd.Connection = kon;
+            return cmd.ExecuteScalar();
+        }
+    }
+}
