@@ -158,11 +158,11 @@
     <Compile Include="model\M_Petugas.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="view\FormPenanganan.cs">
+    <Compile Include="view\Penanganan.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="view\FormPenanganan.Designer.cs">
-      <DependentUpon>FormPenanganan.cs</DependentUpon>
+    <Compile Include="view\Penanganan.Designer.cs">
+      <DependentUpon>Penanganan.cs</DependentUpon>
     </Compile>
     <Compile Include="view\Pasien.cs">
       <SubType>Form</SubType>
@@ -185,8 +185,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="view\FormPenanganan.resx">
-      <DependentUpon>FormPenanganan.cs</DependentUpon>
+    <EmbeddedResource Include="view\Penanganan.resx">
+      <DependentUpon>Penanganan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="view\Pasien.resx">
       <DependentUpon>Pasien.cs</DependentUpon>

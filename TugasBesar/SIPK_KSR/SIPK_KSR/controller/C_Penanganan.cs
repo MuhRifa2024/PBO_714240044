@@ -22,17 +22,17 @@ namespace SIPK_KSR.controller
                 koneksi.OpenConnection();
 
                 MySqlCommand cmd = new MySqlCommand(
-                    @"INSERT INTO penanganan (id_pasien, tanggal, keluhan, tindakan, tindak_lanjut, keterangan, foto_url)
-                    VALUES
-                      (@id_pasien, @tanggal, @keluhan, @tindakan, @tindak_lanjut, @keterangan_rujukan, @foto_penanganan)");
+                    "INSERT INTO penanganan (id_pasien, tanggal, keluhan, tindakan, " +
+                    "tindak_lanjut, keterangan_rujukan, foto_penanganan) " +
+                    "VALUES (@id_pasien, @tanggal, @keluhan, @tindakan, " +
+                    "@tindak_lanjut, @keterangan_rujukan, @foto_penanganan)");
 
                 cmd.Parameters.AddWithValue("@id_pasien", p.IdPasien);
                 cmd.Parameters.AddWithValue("@tanggal", p.Tanggal);
                 cmd.Parameters.AddWithValue("@keluhan", p.Keluhan);
-                cmd.Parameters.AddWithValue("@keluhan", p.Keluhan);
                 cmd.Parameters.AddWithValue("@tindakan", p.Tindakan);
-                cmd.Parameters.AddWithValue("@tindak_loanjut", p.TindakLanjut);
-                cmd.Parameters.AddWithValue("@keteranga_rujuk", p.Rujukan);
+                cmd.Parameters.AddWithValue("@tindak_lanjut", p.TindakLanjut);
+                cmd.Parameters.AddWithValue("@keterangan_rujukan", p.Rujukan);
                 cmd.Parameters.AddWithValue("@foto_penanganan", p.Foto);
 
                 koneksi.ExecuteQuery(cmd);

@@ -74,5 +74,81 @@ namespace SIPK_KSR.view
             }
         }
 
+        private void btnRefresh_Click(object sender, EventArgs e)
+        {
+            RefreshForm();
+            LoadData();
+        }
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+            if (id_petugas == 0)
+            {
+                MessageBox.Show("Pilih data yang akan diubah!", "Peringatan",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            C_Petugas petugas = new C_Petugas();
+            m_petugas.Nama = tbNama.Text;
+            m_petugas.Npm = tbNpm.Text;
+            m_petugas.Angkatan = tbAngkatan.Text;
+            m_petugas.Jabatan = cmbJabatan.Text;
+            m_petugas.Nohp = tbNoHP.Text;
+
+            petugas.Update(m_petugas, id_petugas);
+            RefreshForm();
+            LoadData();
+        }
+
+        public void RefreshForm()
+        {
+            tbNama.Clear();
+            tbNpm.Clear();
+            tbAngkatan.Clear();
+            tbNoHP.Clear();
+            tbCari.Clear();
+            cmbJabatan.SelectedIndex = -1;
+            id_petugas = 0;
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            if (id_petugas == 0)
+            {
+                MessageBox.Show("Pilih data yang akan dihapus!", "Peringatan",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            DialogResult result = MessageBox.Show(
+                "Apakah Anda yakin ingin menghapus data ini?",
+                "Konfirmasi",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Question);
+
+            if (result == DialogResult.Yes)
+            {
+                C_Petugas petugas = new C_Petugas();
+                petugas.Delete(id_petugas);
+                RefreshForm();
+                LoadData();
+            }
+        }
+
+        private void dgvAnggota_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0)
+            {
+                DataGridViewRow row = dgvAnggota.Rows[e.RowIndex];
+
+                id_petugas = Convert.ToInt32(row.Cells[0].Value);
+                tbNama.Text = row.Cells[1].Value.ToString();
+                tbNpm.Text = row.Cells[2].Value.ToString();
+                tbAngkatan.Text = row.Cells[3].Value.ToString();
+                cmbJabatan.Text = row.Cells[4].Value.ToString();
+                tbNoHP.Text = row.Cells[5].Value.ToString();
+            }
+        }
     }
 }

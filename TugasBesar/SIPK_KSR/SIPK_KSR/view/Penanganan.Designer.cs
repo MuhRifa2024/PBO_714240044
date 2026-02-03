@@ -1,6 +1,6 @@
 ﻿namespace SIPK_KSR.view
 {
-    partial class FormPenanganan
+    partial class Penanganan
     {
         /// <summary>
         /// Required designer variable.
@@ -82,10 +82,14 @@
             // cmbxStatus
             // 
             this.cmbxStatus.FormattingEnabled = true;
+            this.cmbxStatus.Items.AddRange(new object[] {
+            "Mahasiswa",
+            "Dosen"});
             this.cmbxStatus.Location = new System.Drawing.Point(97, 98);
             this.cmbxStatus.Name = "cmbxStatus";
             this.cmbxStatus.Size = new System.Drawing.Size(207, 21);
             this.cmbxStatus.TabIndex = 7;
+            this.cmbxStatus.SelectedIndexChanged += new System.EventHandler(this.cmbxStatus_SelectedIndexChanged);
             // 
             // tbNamaPasien
             // 
@@ -309,6 +313,7 @@
             this.btnBatal.TabIndex = 1;
             this.btnBatal.Text = "Batal";
             this.btnBatal.UseVisualStyleBackColor = false;
+            this.btnBatal.Click += new System.EventHandler(this.btnBatal_Click);
             // 
             // btnReset
             // 
@@ -320,6 +325,7 @@
             this.btnReset.TabIndex = 2;
             this.btnReset.Text = "Reset";
             this.btnReset.UseVisualStyleBackColor = false;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // btnSimpan
             // 

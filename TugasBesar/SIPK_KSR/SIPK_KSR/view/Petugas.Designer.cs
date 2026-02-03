@@ -75,6 +75,7 @@
             this.dgvAnggota.Name = "dgvAnggota";
             this.dgvAnggota.Size = new System.Drawing.Size(919, 201);
             this.dgvAnggota.TabIndex = 0;
+            this.dgvAnggota.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvAnggota_CellClick);
             // 
             // groupBox2
             // 
@@ -225,6 +226,7 @@
             this.btnRefresh.TabIndex = 3;
             this.btnRefresh.Text = "Refresh";
             this.btnRefresh.UseVisualStyleBackColor = false;
+            this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
             // 
             // btnDelete
             // 
@@ -235,6 +237,7 @@
             this.btnDelete.TabIndex = 2;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = false;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnEdit
             // 
@@ -245,6 +248,7 @@
             this.btnEdit.TabIndex = 1;
             this.btnEdit.Text = "Edit";
             this.btnEdit.UseVisualStyleBackColor = false;
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // btnSimpan
             // 
