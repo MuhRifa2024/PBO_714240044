@@ -1,22 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\SIPK_KSR\\",
+  "WorkspaceRootPath": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|c:\\users\\admin\\source\\repos\\sipk_ksr\\sipk_ksr\\view\\formpenanganan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|solutionrelative:sipk_ksr\\view\\formpenanganan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|c:\\users\\admin\\pbo_714240044\\tugasbesar\\sipk_ksr\\sipk_ksr\\view\\penanganan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|solutionrelative:sipk_ksr\\view\\penanganan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|C:\\Users\\Admin\\source\\repos\\SIPK_KSR\\sipk_ksr\\view\\formpenanganan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|solutionrelative:sipk_ksr\\view\\formpenanganan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|c:\\users\\admin\\pbo_714240044\\tugasbesar\\sipk_ksr\\sipk_ksr\\model\\m_penanganan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|solutionrelative:sipk_ksr\\model\\m_penanganan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|C:\\Users\\Admin\\source\\repos\\SIPK_KSR\\sipk_ksr\\view\\petugas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|solutionrelative:sipk_ksr\\view\\petugas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|C:\\Users\\Admin\\source\\repos\\SIPK_KSR\\sipk_ksr\\view\\petugas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|solutionrelative:sipk_ksr\\view\\petugas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|c:\\users\\admin\\pbo_714240044\\tugasbesar\\sipk_ksr\\sipk_ksr\\view\\penanganan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|solutionrelative:sipk_ksr\\view\\penanganan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,50 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FormPenanganan.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SIPK_KSR\\SIPK_KSR\\view\\FormPenanganan.cs",
-              "RelativeDocumentMoniker": "SIPK_KSR\\view\\FormPenanganan.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\SIPK_KSR\\SIPK_KSR\\view\\FormPenanganan.cs",
-              "RelativeToolTip": "SIPK_KSR\\view\\FormPenanganan.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAMwBMAAAAHAAAAAAAAAA==",
+              "Title": "M_Penanganan.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\model\\M_Penanganan.cs",
+              "RelativeDocumentMoniker": "SIPK_KSR\\model\\M_Penanganan.cs",
+              "ToolTip": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\model\\M_Penanganan.cs",
+              "RelativeToolTip": "SIPK_KSR\\model\\M_Penanganan.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-21T10:20:22.334Z",
+              "WhenOpened": "2026-02-03T14:08:49.955Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FormPenanganan.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SIPK_KSR\\SIPK_KSR\\view\\FormPenanganan.cs",
-              "RelativeDocumentMoniker": "SIPK_KSR\\view\\FormPenanganan.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\SIPK_KSR\\SIPK_KSR\\view\\FormPenanganan.cs [Design]",
-              "RelativeToolTip": "SIPK_KSR\\view\\FormPenanganan.cs [Design]",
+              "Title": "Penanganan.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\view\\Penanganan.cs",
+              "RelativeDocumentMoniker": "SIPK_KSR\\view\\Penanganan.cs",
+              "ToolTip": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\view\\Penanganan.cs",
+              "RelativeToolTip": "SIPK_KSR\\view\\Penanganan.cs",
+              "ViewState": "AgIAAA8BAAAAAAAAAAAwwCYBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-21T10:00:11.916Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Petugas.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SIPK_KSR\\SIPK_KSR\\view\\Petugas.cs",
-              "RelativeDocumentMoniker": "SIPK_KSR\\view\\Petugas.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\SIPK_KSR\\SIPK_KSR\\view\\Petugas.cs",
-              "RelativeToolTip": "SIPK_KSR\\view\\Petugas.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAIwBMAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T05:14:31.239Z"
+              "WhenOpened": "2026-02-03T13:53:54.811Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Petugas.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SIPK_KSR\\SIPK_KSR\\view\\Petugas.cs",
-              "RelativeDocumentMoniker": "SIPK_KSR\\view\\Petugas.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\SIPK_KSR\\SIPK_KSR\\view\\Petugas.cs [Design]",
-              "RelativeToolTip": "SIPK_KSR\\view\\Petugas.cs [Design]",
+              "Title": "Penanganan.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\view\\Penanganan.cs",
+              "RelativeDocumentMoniker": "SIPK_KSR\\view\\Penanganan.cs",
+              "ToolTip": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\view\\Penanganan.cs [Design]",
+              "RelativeToolTip": "SIPK_KSR\\view\\Penanganan.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T04:50:17.548Z"
+              "WhenOpened": "2026-02-03T13:51:56.701Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

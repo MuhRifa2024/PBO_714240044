@@ -20,7 +20,34 @@ namespace SIPK_KSR.view
         public Penanganan()
         {
             InitializeComponent();
+
+            tbAngkatan.Enabled = false;
+            tbAngkatan.BackColor = Color.LightGray;
+
+            LoadPetugas();
+
         }
+
+        private void LoadPetugas()
+        {
+            try
+            {
+                C_Petugas controller = new C_Petugas();
+                List<M_Petugas> listPetugas = controller.GetAll();
+
+                clbPetugas.Items.Clear();
+
+                foreach (M_Petugas petugas in listPetugas)
+                {
+                    clbPetugas.Items.Add(petugas);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error load petugas: " + ex.Message);
+            }
+        }
+        
 
         //pilih foto
         private void btnPilihFoto_Click(object sender, EventArgs e)
@@ -40,6 +67,7 @@ namespace SIPK_KSR.view
             if (!ValidasiInput())
                 return;
 
+            // 1. Simpan pasien, dapat ID
             int idPasien = SimpanDataPasien();
             if (idPasien == 0)
             {
@@ -48,14 +76,24 @@ namespace SIPK_KSR.view
                 return;
             }
 
+            // 2. Upload foto, dapat URL
             string fotoUrl = UploadFoto();
 
-            bool berhasil = SimpanDataPenanganan(idPasien, fotoUrl);
+            // 3. Simpan penanganan dengan ID dan URL dari atas
+            int idPenanganan = SimpanDataPenanganan(idPasien, fotoUrl);
+            if (idPenanganan == 0)
+            {
+                MessageBox.Show("Gagal menyimpan data penanganan!", "Error");
+                return;
+            }
 
-            if (berhasil)
+            // 4. Simpan petugas
+            bool berhasilPetugas = SimpanPetugasPenanganan(idPenanganan);
+
+            if (berhasilPetugas)
             {
                 MessageBox.Show("Data penanganan berhasil disimpan!", "Sukses",
-                   MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBoxButtons.OK, MessageBoxIcon.Information);
                 ResetForm();
             }
         }
@@ -63,14 +101,50 @@ namespace SIPK_KSR.view
         //Validasi Input
         private bool ValidasiInput()
         {
-            if (string.IsNullOrEmpty(tbNamaPasien.Text) ||
-                string.IsNullOrEmpty(tbKeluhan.Text) ||
-                string.IsNullOrEmpty(tbTindakan.Text))
+            if (string.IsNullOrEmpty(tbNamaPasien.Text))
             {
-                MessageBox.Show("Lengkapi data terlebih dahulu!", "Peringatan",
+                MessageBox.Show("Nama pasien wajib diisi!", "Peringatan",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                tbNamaPasien.Focus();
+                return false;
+            }
+
+            if (cmbxStatus.SelectedIndex == -1)
+            {
+                MessageBox.Show("Status wajib dipilih!", "Peringatan",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return false;
             }
+
+            if (cmbxStatus.Text == "Mahasiswa" && string.IsNullOrEmpty(tbAngkatan.Text))
+            {
+                MessageBox.Show("Angkatan wajib diisi untuk mahasiswa!", "Peringatan",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return false;
+            }
+
+            if (string.IsNullOrEmpty(tbKeluhan.Text))
+            {
+                MessageBox.Show("Keluhan wajib diisi!", "Peringatan",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return false;
+            }
+
+            if (string.IsNullOrEmpty(tbTindakan.Text))
+            {
+                MessageBox.Show("Tindakan wajib diisi!", "Peringatan",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return false;
+            }
+
+            // ← TAMBAHKAN: Validasi petugas
+            if (clbPetugas.CheckedItems.Count == 0)
+            {
+                MessageBox.Show("Pilih minimal 1 petugas yang menangani!", "Peringatan",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return false;
+            }
+
             return true;
         }
 
@@ -93,6 +167,56 @@ namespace SIPK_KSR.view
 
             return 0;
 
+        }
+
+        private int SimpanDataPenanganan(int idPasien, string fotoUrl)
+        {
+            M_Penanganan penanganan = new M_Penanganan
+            {
+                IdPasien = idPasien,
+                Tanggal = dtTanggal.Value,
+                Keluhan = tbKeluhan.Text,
+                Tindakan = tbTindakan.Text,
+                TindakLanjut = cmbTindakLanjut.Text,
+                Rujukan = tbRujuk.Text,
+                Foto = fotoUrl
+            };
+
+            C_Penanganan controller = new C_Penanganan();
+            if (controller.Insert(penanganan))
+            {
+                return controller.GetLastId();
+            }
+
+            return 0;
+        }
+
+        private bool SimpanPetugasPenanganan(int idPenanganan)
+        {
+            try
+            {
+                PenangananPetugas controller = new PenangananPetugas();
+
+                foreach (var item in clbPetugas.CheckedItems)
+                {
+                    M_Petugas petugas = (M_Petugas)item;
+
+                    M_PenangananPetugas pp = new M_PenangananPetugas
+                    {
+                        idPenanganan = idPenanganan,
+                        npm = petugas.Npm
+                    };
+
+                    controller.Insert(pp);
+                }
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error simpan petugas: " + ex.Message);
+                return false;
+            }
         }
 
         private void cmbxStatus_SelectedIndexChanged(object sender, EventArgs e)
@@ -129,45 +253,28 @@ namespace SIPK_KSR.view
             }
         }
 
-        // ================= SIMPAN DATA PENANGANAN =================
-        private bool SimpanDataPenanganan(int idPasien, string fotoUrl)
-        {
-            M_Penanganan penanganan = new M_Penanganan
-            {
-                IdPasien = idPasien,
-                Tanggal = dtTanggal.Value,
-                Keluhan = tbKeluhan.Text,
-                Tindakan = tbTindakan.Text,
-                TindakLanjut = cmbTindakLanjut.Text,
-                Rujukan = tbRujuk.Text,
-                Foto = fotoUrl
-            };
-
-            C_Penanganan controller = new C_Penanganan();
-            return controller.Insert(penanganan);
-        }
-
         // ================= RESET FORM =================
         private void ResetForm()
-        {
-            // Data Pasien
+        { 
             tbNamaPasien.Clear();
             tbProdi.Clear();
             tbAngkatan.Clear();
             cmbxStatus.SelectedIndex = -1;
 
-            // Data Penanganan
+            
             dtTanggal.Value = DateTime.Now;
             tbKeluhan.Clear();
             tbTindakan.Clear();
             cmbTindakLanjut.SelectedIndex = -1;
             tbRujuk.Clear();
 
-            // Foto
+            
             pictureBoxFoto.Image = null;
             fotoPath = "";
-
-            // Reset state angkatan (disabled)
+            for (int i = 0; i < clbPetugas.Items.Count; i++)
+            {
+                clbPetugas.SetItemChecked(i, false);
+            }
             tbAngkatan.Enabled = false;
             tbAngkatan.BackColor = Color.LightGray;
 
