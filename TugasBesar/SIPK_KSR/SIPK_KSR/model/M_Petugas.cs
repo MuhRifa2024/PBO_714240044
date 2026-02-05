@@ -28,5 +28,10 @@ namespace SIPK_KSR.model
         public string Angkatan { get => angkatan; set => angkatan = value; }
         public string Npm { get => npm; set => npm = value; }
         public string Nohp { get => nohp; set => nohp = value; }
+
+        public override string ToString()
+        {
+            return $"{Nama} - {Npm}";
+        }
     }
 }

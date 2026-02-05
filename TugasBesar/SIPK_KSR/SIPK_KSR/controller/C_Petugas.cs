@@ -1,5 +1,6 @@
-﻿using SIPK_KSR.model;
-using MySql.Data.MySqlClient;
+﻿using MySql.Data.MySqlClient;
+using SIPK_KSR.model;
+using SIPK_KSR.view;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -83,7 +84,7 @@ namespace SIPK_KSR.controller
             return status;
         }
 
-        public bool Delete(int id)
+        public bool Delete(int Npm)
         {
             bool status = false;
             try
@@ -93,7 +94,7 @@ namespace SIPK_KSR.controller
                     "DELETE FROM petugas WHERE npm=@npm"
                 );
 
-                cmd.Parameters.AddWithValue("@npm", npm);
+                cmd.Parameters.AddWithValue("@npm", Npm);
                 koneksi.ExecuteQuery(cmd);
                 status = true;
 

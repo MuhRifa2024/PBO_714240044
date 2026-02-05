@@ -111,6 +111,7 @@
             this.tbAngkatan.Name = "tbAngkatan";
             this.tbAngkatan.Size = new System.Drawing.Size(275, 20);
             this.tbAngkatan.TabIndex = 4;
+            this.tbAngkatan.TextChanged += new System.EventHandler(this.tbAngkatan_TextChanged);
             // 
             // label4
             // 
@@ -188,9 +189,11 @@
             // pictureBoxFoto
             // 
             this.pictureBoxFoto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBoxFoto.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBoxFoto.Location = new System.Drawing.Point(31, 227);
             this.pictureBoxFoto.Name = "pictureBoxFoto";
             this.pictureBoxFoto.Size = new System.Drawing.Size(104, 97);
+            this.pictureBoxFoto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxFoto.TabIndex = 10;
             this.pictureBoxFoto.TabStop = false;
             // 
@@ -214,10 +217,14 @@
             // cmbTindakLanjut
             // 
             this.cmbTindakLanjut.FormattingEnabled = true;
+            this.cmbTindakLanjut.Items.AddRange(new object[] {
+            "Selesai",
+            "Rujuk"});
             this.cmbTindakLanjut.Location = new System.Drawing.Point(119, 175);
             this.cmbTindakLanjut.Name = "cmbTindakLanjut";
             this.cmbTindakLanjut.Size = new System.Drawing.Size(101, 21);
             this.cmbTindakLanjut.TabIndex = 7;
+            this.cmbTindakLanjut.SelectedIndexChanged += new System.EventHandler(this.cmbTindakLanjut_SelectedIndexChanged);
             // 
             // label8
             // 
@@ -339,7 +346,7 @@
             this.btnSimpan.UseVisualStyleBackColor = false;
             this.btnSimpan.Click += new System.EventHandler(this.btnSimpan_Click);
             // 
-            // FormPenanganan
+            // Penanganan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -351,7 +358,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox1);
-            this.Name = "FormPenanganan";
+            this.Name = "Penanganan";
             this.Text = "Form Penanganan Pasien";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

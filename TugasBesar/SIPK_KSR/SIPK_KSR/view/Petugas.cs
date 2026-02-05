@@ -21,7 +21,7 @@ namespace SIPK_KSR.view
 
         Koneksi koneksi = new Koneksi();
         M_Petugas m_petugas = new M_Petugas();
-        int id_petugas;
+        int npm_petugas = 0;
 
         public void LoadData()
         {
@@ -29,8 +29,8 @@ namespace SIPK_KSR.view
             dgvAnggota.DataSource = koneksi.ShowData(
                 "SELECT * FROM petugas");
 
-            dgvAnggota.Columns[0].HeaderText = "Nama Petugas";
-            dgvAnggota.Columns[1].HeaderText = "NPM";
+            dgvAnggota.Columns[0].HeaderText = "NPM";
+            dgvAnggota.Columns[1].HeaderText = "Nama Petugas";
             dgvAnggota.Columns[2].HeaderText = "Angkatan";
             dgvAnggota.Columns[3].HeaderText = "Jabatan";
             dgvAnggota.Columns[4].HeaderText = "No. Telepon";
@@ -82,7 +82,7 @@ namespace SIPK_KSR.view
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
-            if (id_petugas == 0)
+            if (npm_petugas == 0)
             {
                 MessageBox.Show("Pilih data yang akan diubah!", "Peringatan",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -96,7 +96,7 @@ namespace SIPK_KSR.view
             m_petugas.Jabatan = cmbJabatan.Text;
             m_petugas.Nohp = tbNoHP.Text;
 
-            petugas.Update(m_petugas, id_petugas);
+            petugas.Update(m_petugas, npm_petugas);
             RefreshForm();
             LoadData();
         }
@@ -109,12 +109,12 @@ namespace SIPK_KSR.view
             tbNoHP.Clear();
             tbCari.Clear();
             cmbJabatan.SelectedIndex = -1;
-            id_petugas = 0;
+            npm_petugas = 0;
         }
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
-            if (id_petugas == 0)
+            if (npm_petugas == 0)
             {
                 MessageBox.Show("Pilih data yang akan dihapus!", "Peringatan",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -130,7 +130,7 @@ namespace SIPK_KSR.view
             if (result == DialogResult.Yes)
             {
                 C_Petugas petugas = new C_Petugas();
-                petugas.Delete(id_petugas);
+                petugas.Delete(npm_petugas);
                 RefreshForm();
                 LoadData();
             }
@@ -142,13 +142,18 @@ namespace SIPK_KSR.view
             {
                 DataGridViewRow row = dgvAnggota.Rows[e.RowIndex];
 
-                id_petugas = Convert.ToInt32(row.Cells[0].Value);
-                tbNama.Text = row.Cells[1].Value.ToString();
-                tbNpm.Text = row.Cells[2].Value.ToString();
-                tbAngkatan.Text = row.Cells[3].Value.ToString();
-                cmbJabatan.Text = row.Cells[4].Value.ToString();
-                tbNoHP.Text = row.Cells[5].Value.ToString();
+                npm_petugas = int.Parse(row.Cells[0].Value.ToString());  
+                tbNama.Text = row.Cells[1].Value.ToString();             
+                tbNpm.Text = row.Cells[0].Value.ToString();              
+                tbAngkatan.Text = row.Cells[2].Value.ToString();       
+                cmbJabatan.Text = row.Cells[3].Value.ToString();         
+                tbNoHP.Text = row.Cells[4].Value.ToString();
             }
+        }
+
+        private void dgvAnggota_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

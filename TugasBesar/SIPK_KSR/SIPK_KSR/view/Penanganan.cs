@@ -290,5 +290,25 @@ namespace SIPK_KSR.view
         {
             this.Close();
         }
+
+        private void cmbTindakLanjut_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cmbTindakLanjut.SelectedItem.ToString() == "Selesai")
+            {
+                tbRujuk.Enabled = false;
+                tbRujuk.BackColor = Color.LightGreen;
+            }
+            else
+            {
+                tbRujuk.Enabled = true;
+                tbRujuk.BackColor = Color.White;
+                tbRujuk.Clear();
+            }
+        }
+
+        private void tbAngkatan_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
