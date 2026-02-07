@@ -3,51 +3,63 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|c:\\users\\admin\\pbo_714240044\\tugasbesar\\sipk_ksr\\sipk_ksr\\controller\\ceklogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|solutionrelative:sipk_ksr\\controller\\ceklogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|c:\\users\\admin\\pbo_714240044\\tugasbesar\\sipk_ksr\\sipk_ksr\\view\\parentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|solutionrelative:sipk_ksr\\view\\parentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\sipk_ksr\\view\\parentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|solutionrelative:sipk_ksr\\view\\parentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\sipk_ksr\\view\\datapenangan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|solutionrelative:sipk_ksr\\view\\datapenangan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\sipk_ksr\\view\\datapenangan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|solutionrelative:sipk_ksr\\view\\datapenangan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\sipk_ksr\\view\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|solutionrelative:sipk_ksr\\view\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|c:\\users\\admin\\pbo_714240044\\tugasbesar\\sipk_ksr\\sipk_ksr\\lib\\excel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|solutionrelative:sipk_ksr\\lib\\excel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\sipk_ksr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|solutionrelative:sipk_ksr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|c:\\users\\admin\\pbo_714240044\\tugasbesar\\sipk_ksr\\sipk_ksr\\view\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|solutionrelative:sipk_ksr\\view\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|c:\\users\\admin\\pbo_714240044\\tugasbesar\\sipk_ksr\\sipk_ksr\\controller\\koneksi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|c:\\users\\admin\\pbo_714240044\\tugasbesar\\sipk_ksr\\sipk_ksr\\controller\\ceklogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|solutionrelative:sipk_ksr\\controller\\ceklogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\sipk_ksr\\controller\\koneksi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|solutionrelative:sipk_ksr\\controller\\koneksi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|c:\\users\\admin\\pbo_714240044\\tugasbesar\\sipk_ksr\\sipk_ksr\\view\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\sipk_ksr\\view\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|solutionrelative:sipk_ksr\\view\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|c:\\users\\admin\\pbo_714240044\\tugasbesar\\sipk_ksr\\sipk_ksr\\view\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|solutionrelative:sipk_ksr\\view\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|c:\\users\\admin\\pbo_714240044\\tugasbesar\\sipk_ksr\\sipk_ksr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|solutionrelative:sipk_ksr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|c:\\users\\admin\\pbo_714240044\\tugasbesar\\sipk_ksr\\sipk_ksr\\view\\formlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\sipk_ksr\\view\\formlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|solutionrelative:sipk_ksr\\view\\formlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|c:\\users\\admin\\pbo_714240044\\tugasbesar\\sipk_ksr\\sipk_ksr\\view\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\sipk_ksr\\view\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|solutionrelative:sipk_ksr\\view\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|c:\\users\\admin\\pbo_714240044\\tugasbesar\\sipk_ksr\\sipk_ksr\\view\\parentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|solutionrelative:sipk_ksr\\view\\parentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|c:\\users\\admin\\pbo_714240044\\tugasbesar\\sipk_ksr\\sipk_ksr\\view\\datapenangan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|solutionrelative:sipk_ksr\\view\\datapenangan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|c:\\users\\admin\\pbo_714240044\\tugasbesar\\sipk_ksr\\sipk_ksr\\view\\petugas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\sipk_ksr\\view\\petugas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|solutionrelative:sipk_ksr\\view\\petugas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|c:\\users\\admin\\pbo_714240044\\tugasbesar\\sipk_ksr\\sipk_ksr\\view\\pasien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\sipk_ksr\\view\\pasien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|solutionrelative:sipk_ksr\\view\\pasien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -55,19 +67,11 @@
       "RelativeMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|solutionrelative:sipk_ksr\\view\\penanganan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|c:\\users\\admin\\pbo_714240044\\tugasbesar\\sipk_ksr\\sipk_ksr\\view\\datapenangan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|solutionrelative:sipk_ksr\\view\\datapenangan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|c:\\users\\admin\\pbo_714240044\\tugasbesar\\sipk_ksr\\sipk_ksr\\view\\parentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|solutionrelative:sipk_ksr\\view\\parentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|c:\\users\\admin\\pbo_714240044\\tugasbesar\\sipk_ksr\\sipk_ksr\\view\\datapenangan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\sipk_ksr\\view\\datapenangan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|solutionrelative:sipk_ksr\\view\\datapenangan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|c:\\users\\admin\\pbo_714240044\\tugasbesar\\sipk_ksr\\sipk_ksr\\view\\penanganan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\sipk_ksr\\view\\penanganan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C3FD1F1-AF2A-44F5-B73D-4EE5301BBF28}|SIPK_KSR\\SIPK_KSR.csproj|solutionrelative:sipk_ksr\\view\\penanganan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -87,6 +91,133 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ParentForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\view\\ParentForm.cs",
+              "RelativeDocumentMoniker": "SIPK_KSR\\view\\ParentForm.cs",
+              "ToolTip": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\view\\ParentForm.cs [Design]",
+              "RelativeToolTip": "SIPK_KSR\\view\\ParentForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T20:54:59.376Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DataPenangan.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\view\\DataPenangan.cs",
+              "RelativeDocumentMoniker": "SIPK_KSR\\view\\DataPenangan.cs",
+              "ToolTip": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\view\\DataPenangan.cs [Design]",
+              "RelativeToolTip": "SIPK_KSR\\view\\DataPenangan.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T14:14:50.304Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FormLogin.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\view\\FormLogin.cs",
+              "RelativeDocumentMoniker": "SIPK_KSR\\view\\FormLogin.cs",
+              "ToolTip": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\view\\FormLogin.cs",
+              "RelativeToolTip": "SIPK_KSR\\view\\FormLogin.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAAAEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T18:40:56.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StartUp.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\view\\StartUp.cs",
+              "RelativeDocumentMoniker": "SIPK_KSR\\view\\StartUp.cs",
+              "ToolTip": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\view\\StartUp.cs",
+              "RelativeToolTip": "SIPK_KSR\\view\\StartUp.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T16:24:19.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Koneksi.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\controller\\Koneksi.cs",
+              "RelativeDocumentMoniker": "SIPK_KSR\\controller\\Koneksi.cs",
+              "ToolTip": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\controller\\Koneksi.cs",
+              "RelativeToolTip": "SIPK_KSR\\controller\\Koneksi.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAAAG8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T15:23:57.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ParentForm.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\view\\ParentForm.cs",
+              "RelativeDocumentMoniker": "SIPK_KSR\\view\\ParentForm.cs",
+              "ToolTip": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\view\\ParentForm.cs",
+              "RelativeToolTip": "SIPK_KSR\\view\\ParentForm.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAcwD8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T14:37:53.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataPenangan.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\view\\DataPenangan.cs",
+              "RelativeDocumentMoniker": "SIPK_KSR\\view\\DataPenangan.cs",
+              "ToolTip": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\view\\DataPenangan.cs",
+              "RelativeToolTip": "SIPK_KSR\\view\\DataPenangan.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T14:16:22.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormLogin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\view\\FormLogin.cs",
+              "RelativeDocumentMoniker": "SIPK_KSR\\view\\FormLogin.cs",
+              "ToolTip": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\view\\FormLogin.cs [Design]",
+              "RelativeToolTip": "SIPK_KSR\\view\\FormLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T19:43:51.481Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Excel.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\lib\\Excel.cs",
+              "RelativeDocumentMoniker": "SIPK_KSR\\lib\\Excel.cs",
+              "ToolTip": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\lib\\Excel.cs",
+              "RelativeToolTip": "SIPK_KSR\\lib\\Excel.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAwCkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T19:58:20.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FormLogin.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\view\\FormLogin.Designer.cs",
+              "RelativeDocumentMoniker": "SIPK_KSR\\view\\FormLogin.Designer.cs",
+              "ToolTip": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\view\\FormLogin.Designer.cs",
+              "RelativeToolTip": "SIPK_KSR\\view\\FormLogin.Designer.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAIAwwEwAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T18:41:12.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "CekLogin.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\controller\\CekLogin.cs",
               "RelativeDocumentMoniker": "SIPK_KSR\\controller\\CekLogin.cs",
@@ -100,83 +231,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "FormLogin.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\view\\FormLogin.Designer.cs",
-              "RelativeDocumentMoniker": "SIPK_KSR\\view\\FormLogin.Designer.cs",
-              "ToolTip": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\view\\FormLogin.Designer.cs",
-              "RelativeToolTip": "SIPK_KSR\\view\\FormLogin.Designer.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAIAwwEwAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T18:41:12.564Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FormLogin.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\view\\FormLogin.cs",
-              "RelativeDocumentMoniker": "SIPK_KSR\\view\\FormLogin.cs",
-              "ToolTip": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\view\\FormLogin.cs",
-              "RelativeToolTip": "SIPK_KSR\\view\\FormLogin.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAAAEwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T18:40:56.213Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormLogin.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\view\\FormLogin.cs",
-              "RelativeDocumentMoniker": "SIPK_KSR\\view\\FormLogin.cs",
-              "ToolTip": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\view\\FormLogin.cs [Design]",
-              "RelativeToolTip": "SIPK_KSR\\view\\FormLogin.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T17:14:06.629Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "StartUp.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\view\\StartUp.cs",
-              "RelativeDocumentMoniker": "SIPK_KSR\\view\\StartUp.cs",
-              "ToolTip": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\view\\StartUp.cs",
-              "RelativeToolTip": "SIPK_KSR\\view\\StartUp.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAIwFQAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T16:24:19.317Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Koneksi.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\controller\\Koneksi.cs",
-              "RelativeDocumentMoniker": "SIPK_KSR\\controller\\Koneksi.cs",
-              "ToolTip": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\controller\\Koneksi.cs",
-              "RelativeToolTip": "SIPK_KSR\\controller\\Koneksi.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAAAG8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T15:23:57.469Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\Program.cs",
               "RelativeDocumentMoniker": "SIPK_KSR\\Program.cs",
               "ToolTip": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\Program.cs",
               "RelativeToolTip": "SIPK_KSR\\Program.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBoAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABQAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-07T14:48:16.582Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "Penanganan.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\view\\Penanganan.cs",
               "RelativeDocumentMoniker": "SIPK_KSR\\view\\Penanganan.cs",
@@ -188,7 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "Pasien.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\view\\Pasien.cs",
               "RelativeDocumentMoniker": "SIPK_KSR\\view\\Pasien.cs",
@@ -200,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "StartUp.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\view\\StartUp.cs",
               "RelativeDocumentMoniker": "SIPK_KSR\\view\\StartUp.cs",
@@ -213,19 +280,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "DataPenangan.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\view\\DataPenangan.cs",
-              "RelativeDocumentMoniker": "SIPK_KSR\\view\\DataPenangan.cs",
-              "ToolTip": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\view\\DataPenangan.cs",
-              "RelativeToolTip": "SIPK_KSR\\view\\DataPenangan.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAIwFMAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T14:16:22.257Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "Petugas.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\view\\Petugas.cs",
               "RelativeDocumentMoniker": "SIPK_KSR\\view\\Petugas.cs",
@@ -237,31 +291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ParentForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\view\\ParentForm.cs",
-              "RelativeDocumentMoniker": "SIPK_KSR\\view\\ParentForm.cs",
-              "ToolTip": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\view\\ParentForm.cs [Design]",
-              "RelativeToolTip": "SIPK_KSR\\view\\ParentForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T14:36:45.115Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DataPenangan.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\view\\DataPenangan.cs",
-              "RelativeDocumentMoniker": "SIPK_KSR\\view\\DataPenangan.cs",
-              "ToolTip": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\view\\DataPenangan.cs [Design]",
-              "RelativeToolTip": "SIPK_KSR\\view\\DataPenangan.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T14:14:50.304Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "DataPenangan.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\view\\DataPenangan.Designer.cs",
               "RelativeDocumentMoniker": "SIPK_KSR\\view\\DataPenangan.Designer.cs",
@@ -274,20 +304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ParentForm.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\view\\ParentForm.cs",
-              "RelativeDocumentMoniker": "SIPK_KSR\\view\\ParentForm.cs",
-              "ToolTip": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\view\\ParentForm.cs",
-              "RelativeToolTip": "SIPK_KSR\\view\\ParentForm.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAcwD4AAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T14:37:53.862Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "M_Penanganan.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\model\\M_Penanganan.cs",
               "RelativeDocumentMoniker": "SIPK_KSR\\model\\M_Penanganan.cs",
@@ -300,7 +317,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Penanganan.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\PBO_714240044\\TugasBesar\\SIPK_KSR\\SIPK_KSR\\view\\Penanganan.cs",
               "RelativeDocumentMoniker": "SIPK_KSR\\view\\Penanganan.cs",

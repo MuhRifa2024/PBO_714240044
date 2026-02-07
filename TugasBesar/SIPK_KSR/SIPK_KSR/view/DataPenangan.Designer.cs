@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnResetFilter = new System.Windows.Forms.Button();
             this.btnFilter = new System.Windows.Forms.Button();
@@ -72,6 +72,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.Crimson;
             this.groupBox1.Controls.Add(this.btnResetFilter);
             this.groupBox1.Controls.Add(this.btnFilter);
             this.groupBox1.Controls.Add(this.dtpSampai);
@@ -167,7 +168,7 @@
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(3, 120);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(694, 216);
+            this.groupBox2.Size = new System.Drawing.Size(589, 212);
             this.groupBox2.TabIndex = 0;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Daftar Penanganan";
@@ -175,25 +176,24 @@
             // dataGridDaftar
             // 
             this.dataGridDaftar.AllowUserToAddRows = false;
-            this.dataGridDaftar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridDaftar.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridDaftar.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dataGridDaftar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridDaftar.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridDaftar.DefaultCellStyle = dataGridViewCellStyle2;
+            this.dataGridDaftar.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridDaftar.Location = new System.Drawing.Point(3, 18);
             this.dataGridDaftar.MultiSelect = false;
             this.dataGridDaftar.Name = "dataGridDaftar";
             this.dataGridDaftar.ReadOnly = true;
             this.dataGridDaftar.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridDaftar.Size = new System.Drawing.Size(691, 198);
+            this.dataGridDaftar.Size = new System.Drawing.Size(583, 191);
             this.dataGridDaftar.TabIndex = 0;
             this.dataGridDaftar.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridDaftar_CellClick);
             // 
@@ -204,9 +204,9 @@
             this.groupBox3.Controls.Add(this.groupBox5);
             this.groupBox3.Controls.Add(this.data);
             this.groupBox3.Controls.Add(this.groupBox4);
-            this.groupBox3.Location = new System.Drawing.Point(3, 354);
+            this.groupBox3.Location = new System.Drawing.Point(6, 338);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(694, 291);
+            this.groupBox3.Size = new System.Drawing.Size(586, 240);
             this.groupBox3.TabIndex = 0;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Detail Penanganan";
@@ -214,9 +214,9 @@
             // btnRefresh
             // 
             this.btnRefresh.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.btnRefresh.Location = new System.Drawing.Point(567, 206);
+            this.btnRefresh.Location = new System.Drawing.Point(498, 179);
             this.btnRefresh.Name = "btnRefresh";
-            this.btnRefresh.Size = new System.Drawing.Size(118, 23);
+            this.btnRefresh.Size = new System.Drawing.Size(88, 34);
             this.btnRefresh.TabIndex = 2;
             this.btnRefresh.Text = "Refresh";
             this.btnRefresh.UseVisualStyleBackColor = false;
@@ -225,34 +225,37 @@
             // btnExport
             // 
             this.btnExport.BackColor = System.Drawing.Color.LavenderBlush;
-            this.btnExport.Location = new System.Drawing.Point(567, 169);
+            this.btnExport.Location = new System.Drawing.Point(498, 140);
             this.btnExport.Name = "btnExport";
-            this.btnExport.Size = new System.Drawing.Size(118, 23);
+            this.btnExport.Size = new System.Drawing.Size(85, 33);
             this.btnExport.TabIndex = 1;
             this.btnExport.Text = "Export";
             this.btnExport.UseVisualStyleBackColor = false;
+            this.btnExport.Click += new System.EventHandler(this.btnExport_Click);
             // 
             // groupBox5
             // 
+            this.groupBox5.BackColor = System.Drawing.Color.Goldenrod;
             this.groupBox5.Controls.Add(this.pbFoto);
-            this.groupBox5.Location = new System.Drawing.Point(420, 150);
+            this.groupBox5.Location = new System.Drawing.Point(394, 126);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(130, 121);
+            this.groupBox5.Size = new System.Drawing.Size(98, 99);
             this.groupBox5.TabIndex = 0;
             this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "Foto Penanganan";
+            this.groupBox5.Text = "Foto";
             // 
             // pbFoto
             // 
-            this.pbFoto.Location = new System.Drawing.Point(6, 19);
+            this.pbFoto.Location = new System.Drawing.Point(7, 19);
             this.pbFoto.Name = "pbFoto";
-            this.pbFoto.Size = new System.Drawing.Size(118, 96);
+            this.pbFoto.Size = new System.Drawing.Size(85, 68);
             this.pbFoto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbFoto.TabIndex = 4;
             this.pbFoto.TabStop = false;
             // 
             // data
             // 
+            this.data.BackColor = System.Drawing.Color.DodgerBlue;
             this.data.Controls.Add(this.lbPetugas);
             this.data.Controls.Add(this.tbTindakanDetail);
             this.data.Controls.Add(this.tbKeluhanDetail);
@@ -262,9 +265,9 @@
             this.data.Controls.Add(this.label9);
             this.data.Controls.Add(this.label8);
             this.data.Controls.Add(this.lblTanggal);
-            this.data.Location = new System.Drawing.Point(3, 19);
+            this.data.Location = new System.Drawing.Point(6, 19);
             this.data.Name = "data";
-            this.data.Size = new System.Drawing.Size(374, 266);
+            this.data.Size = new System.Drawing.Size(382, 194);
             this.data.TabIndex = 0;
             this.data.TabStop = false;
             this.data.Text = "Data Penanganan";
@@ -272,7 +275,7 @@
             // lbPetugas
             // 
             this.lbPetugas.FormattingEnabled = true;
-            this.lbPetugas.Location = new System.Drawing.Point(254, 183);
+            this.lbPetugas.Location = new System.Drawing.Point(227, 59);
             this.lbPetugas.Name = "lbPetugas";
             this.lbPetugas.Size = new System.Drawing.Size(114, 56);
             this.lbPetugas.TabIndex = 8;
@@ -283,7 +286,7 @@
             this.tbTindakanDetail.Multiline = true;
             this.tbTindakanDetail.Name = "tbTindakanDetail";
             this.tbTindakanDetail.ReadOnly = true;
-            this.tbTindakanDetail.Size = new System.Drawing.Size(243, 43);
+            this.tbTindakanDetail.Size = new System.Drawing.Size(137, 30);
             this.tbTindakanDetail.TabIndex = 7;
             // 
             // tbKeluhanDetail
@@ -292,13 +295,13 @@
             this.tbKeluhanDetail.Multiline = true;
             this.tbKeluhanDetail.Name = "tbKeluhanDetail";
             this.tbKeluhanDetail.ReadOnly = true;
-            this.tbKeluhanDetail.Size = new System.Drawing.Size(242, 42);
+            this.tbKeluhanDetail.Size = new System.Drawing.Size(136, 31);
             this.tbKeluhanDetail.TabIndex = 6;
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(196, 183);
+            this.label12.Location = new System.Drawing.Point(224, 43);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(52, 13);
             this.label12.TabIndex = 5;
@@ -307,7 +310,7 @@
             // lblKeteranganRujuk
             // 
             this.lblKeteranganRujuk.AutoSize = true;
-            this.lblKeteranganRujuk.Location = new System.Drawing.Point(6, 197);
+            this.lblKeteranganRujuk.Location = new System.Drawing.Point(224, 160);
             this.lblKeteranganRujuk.Name = "lblKeteranganRujuk";
             this.lblKeteranganRujuk.Size = new System.Drawing.Size(74, 13);
             this.lblKeteranganRujuk.TabIndex = 4;
@@ -316,7 +319,7 @@
             // lblTindakLanjut
             // 
             this.lblTindakLanjut.AutoSize = true;
-            this.lblTindakLanjut.Location = new System.Drawing.Point(6, 170);
+            this.lblTindakLanjut.Location = new System.Drawing.Point(6, 160);
             this.lblTindakLanjut.Name = "lblTindakLanjut";
             this.lblTindakLanjut.Size = new System.Drawing.Size(84, 13);
             this.lblTindakLanjut.TabIndex = 3;
@@ -351,13 +354,14 @@
             // 
             // groupBox4
             // 
+            this.groupBox4.BackColor = System.Drawing.Color.Lime;
             this.groupBox4.Controls.Add(this.lblAngkatan);
             this.groupBox4.Controls.Add(this.lblProdi);
             this.groupBox4.Controls.Add(this.lblStatus);
             this.groupBox4.Controls.Add(this.lblNamaPasien);
-            this.groupBox4.Location = new System.Drawing.Point(421, 9);
+            this.groupBox4.Location = new System.Drawing.Point(394, 9);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(264, 137);
+            this.groupBox4.Size = new System.Drawing.Size(168, 111);
             this.groupBox4.TabIndex = 0;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Data Pasien";
@@ -365,40 +369,40 @@
             // lblAngkatan
             // 
             this.lblAngkatan.AutoSize = true;
-            this.lblAngkatan.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAngkatan.Location = new System.Drawing.Point(11, 114);
+            this.lblAngkatan.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAngkatan.Location = new System.Drawing.Point(11, 87);
             this.lblAngkatan.Name = "lblAngkatan";
-            this.lblAngkatan.Size = new System.Drawing.Size(77, 13);
+            this.lblAngkatan.Size = new System.Drawing.Size(67, 12);
             this.lblAngkatan.TabIndex = 3;
             this.lblAngkatan.Text = "Angkatan : -";
             // 
             // lblProdi
             // 
             this.lblProdi.AutoSize = true;
-            this.lblProdi.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblProdi.Location = new System.Drawing.Point(11, 87);
+            this.lblProdi.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblProdi.Location = new System.Drawing.Point(11, 66);
             this.lblProdi.Name = "lblProdi";
-            this.lblProdi.Size = new System.Drawing.Size(52, 13);
+            this.lblProdi.Size = new System.Drawing.Size(45, 12);
             this.lblProdi.TabIndex = 2;
             this.lblProdi.Text = "Prodi : -";
             // 
             // lblStatus
             // 
             this.lblStatus.AutoSize = true;
-            this.lblStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblStatus.Location = new System.Drawing.Point(11, 59);
+            this.lblStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStatus.Location = new System.Drawing.Point(11, 45);
             this.lblStatus.Name = "lblStatus";
-            this.lblStatus.Size = new System.Drawing.Size(59, 13);
+            this.lblStatus.Size = new System.Drawing.Size(52, 12);
             this.lblStatus.TabIndex = 1;
             this.lblStatus.Text = "Status : -";
             // 
             // lblNamaPasien
             // 
             this.lblNamaPasien.AutoSize = true;
-            this.lblNamaPasien.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNamaPasien.Location = new System.Drawing.Point(11, 30);
+            this.lblNamaPasien.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNamaPasien.Location = new System.Drawing.Point(11, 25);
             this.lblNamaPasien.Name = "lblNamaPasien";
-            this.lblNamaPasien.Size = new System.Drawing.Size(55, 13);
+            this.lblNamaPasien.Size = new System.Drawing.Size(48, 12);
             this.lblNamaPasien.TabIndex = 0;
             this.lblNamaPasien.Text = "Nama : -";
             // 
@@ -406,7 +410,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(701, 657);
+            this.AutoScroll = true;
+            this.ClientSize = new System.Drawing.Size(598, 573);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox1);

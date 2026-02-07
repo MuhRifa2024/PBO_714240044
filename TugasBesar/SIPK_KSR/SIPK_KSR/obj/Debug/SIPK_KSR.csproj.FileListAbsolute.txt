@@ -98,3 +98,11 @@ C:\Users\Admin\PBO_714240044\TugasBesar\SIPK_KSR\SIPK_KSR\obj\Debug\SIPK_KSR.csp
 C:\Users\Admin\PBO_714240044\TugasBesar\SIPK_KSR\SIPK_KSR\obj\Debug\SIPK_KSR.exe
 C:\Users\Admin\PBO_714240044\TugasBesar\SIPK_KSR\SIPK_KSR\obj\Debug\SIPK_KSR.pdb
 C:\Users\Admin\PBO_714240044\TugasBesar\SIPK_KSR\SIPK_KSR\obj\Debug\SIPK_KSR.exe.config
+C:\Users\Admin\PBO_714240044\TugasBesar\SIPK_KSR\SIPK_KSR\bin\Debug\EPPlus.dll
+C:\Users\Admin\PBO_714240044\TugasBesar\SIPK_KSR\SIPK_KSR\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\Admin\PBO_714240044\TugasBesar\SIPK_KSR\SIPK_KSR\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\Admin\PBO_714240044\TugasBesar\SIPK_KSR\SIPK_KSR\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\Admin\PBO_714240044\TugasBesar\SIPK_KSR\SIPK_KSR\bin\Debug\System.Security.Cryptography.Xml.dll
+C:\Users\Admin\PBO_714240044\TugasBesar\SIPK_KSR\SIPK_KSR\bin\Debug\EPPlus.xml
+C:\Users\Admin\PBO_714240044\TugasBesar\SIPK_KSR\SIPK_KSR\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\Admin\PBO_714240044\TugasBesar\SIPK_KSR\SIPK_KSR\bin\Debug\System.Security.Cryptography.Xml.xml

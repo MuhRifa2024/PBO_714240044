@@ -1,4 +1,5 @@
-﻿using SIPK_KSR.view;
+﻿using OfficeOpenXml;
+using SIPK_KSR.view;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -17,6 +18,8 @@ namespace SIPK_KSR
         [STAThread]
         static void Main()
         {
+            ExcelPackage.License.SetNonCommercialPersonal("KSR");
+
             CultureInfo culture = new CultureInfo("id-ID");
             Thread.CurrentThread.CurrentCulture = culture;
             Thread.CurrentThread.CurrentUICulture = culture;

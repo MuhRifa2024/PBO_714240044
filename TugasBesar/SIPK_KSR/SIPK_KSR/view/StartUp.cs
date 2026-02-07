@@ -82,7 +82,7 @@ namespace SIPK_KSR.view
             // Buka ParentForm
             lblStatus.Text = "Selesai!";
             await Task.Delay(300);
-            this.Hide();
+            this.Close();
             //new FormLogin().Show();
         }
     }

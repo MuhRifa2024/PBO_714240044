@@ -1,11 +1,13 @@
 ﻿using MySql.Data.MySqlClient;
 using SIPK_KSR.controller;
+using SIPK_KSR.lib;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Globalization;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading;
@@ -20,6 +22,8 @@ namespace SIPK_KSR.view
         public DataPenangan()
         {
             InitializeComponent();
+
+           
 
             CultureInfo culture = new CultureInfo("id-ID");
             Thread.CurrentThread.CurrentCulture = culture;
@@ -296,6 +300,26 @@ namespace SIPK_KSR.view
             }
         }
 
+        private void btnExport_Click(object sender, EventArgs e)
+        {
+            SaveFileDialog save = new SaveFileDialog();
+            save.Filter = "Excel Documents (*.xlsx)|*.xlsx";
+            save.FileName = "Data_Penanganan_KSR.xlsx";
+            save.OverwritePrompt = false;
+            if (save.ShowDialog()  == DialogResult.OK)
+            {
+                string filePath = save.FileName;
 
+                if (File.Exists(filePath))
+                    File.Delete(filePath);
+
+                Excel excel_lib = new Excel();
+                excel_lib.ExportToExcel(dataGridDaftar, filePath);
+
+                MessageBox.Show(
+                    "Data berhasil diekspor ke file Excel",
+                    "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
     }
 }
