@@ -11,7 +11,7 @@ namespace SIPK_KSR.controller
 {
     internal class Koneksi
     {
-        string connectionString = "Server=localhost;Database=tb_sipk;Uid=root;Pwd=;";
+        string connectionString = "Server=mysql-rifa.alwaysdata.net;Database=rifa_sipk;Uid=rifa;Pwd=muhamad172024;Port=3306;";
         MySqlConnection kon;
 
         public MySqlConnection GetConnection()
@@ -91,6 +91,21 @@ namespace SIPK_KSR.controller
             }
 
             return table;
+        }
+
+        public MySqlDataReader reader(string query, params MySqlParameter[] parameters)
+        {
+            OpenConnection();
+
+            MySqlCommand cmd = new MySqlCommand(query, kon);
+
+            if (parameters != null)
+            {
+                cmd.Parameters.AddRange(parameters);
+            }
+
+            // PENTING: CommandBehavior.CloseConnection agar koneksi otomatis tutup saat reader di-close
+            return cmd.ExecuteReader(CommandBehavior.CloseConnection);
         }
     }
 }

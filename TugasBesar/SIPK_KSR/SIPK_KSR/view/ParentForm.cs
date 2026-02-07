@@ -57,5 +57,12 @@ namespace SIPK_KSR.view
         {
             this.Refresh();
         }
+
+        private void dataPenanganToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DataPenangan form = new DataPenangan();
+            form.MdiParent = this;
+            form.Show();
+        }
     }
 }

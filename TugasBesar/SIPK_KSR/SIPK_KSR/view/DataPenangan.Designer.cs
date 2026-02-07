@@ -28,13 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnResetFilter = new System.Windows.Forms.Button();
             this.btnFilter = new System.Windows.Forms.Button();
             this.dtpSampai = new System.Windows.Forms.DateTimePicker();
             this.dtpDari = new System.Windows.Forms.DateTimePicker();
             this.label13 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBoxCari = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
@@ -44,13 +45,13 @@
             this.btnExport = new System.Windows.Forms.Button();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.pbFoto = new System.Windows.Forms.PictureBox();
-            this.lbPetugas = new System.Windows.Forms.GroupBox();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.data = new System.Windows.Forms.GroupBox();
+            this.lbPetugas = new System.Windows.Forms.ListBox();
+            this.tbTindakanDetail = new System.Windows.Forms.TextBox();
             this.tbKeluhanDetail = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
+            this.lblKeteranganRujuk = new System.Windows.Forms.Label();
+            this.lblTindakLanjut = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.lblTanggal = new System.Windows.Forms.Label();
@@ -65,7 +66,7 @@
             this.groupBox3.SuspendLayout();
             this.groupBox5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbFoto)).BeginInit();
-            this.lbPetugas.SuspendLayout();
+            this.data.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -76,7 +77,7 @@
             this.groupBox1.Controls.Add(this.dtpSampai);
             this.groupBox1.Controls.Add(this.dtpDari);
             this.groupBox1.Controls.Add(this.label13);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.textBoxCari);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -96,6 +97,7 @@
             this.btnResetFilter.TabIndex = 6;
             this.btnResetFilter.Text = "Reset";
             this.btnResetFilter.UseVisualStyleBackColor = false;
+            this.btnResetFilter.Click += new System.EventHandler(this.btnResetFilter_Click);
             // 
             // btnFilter
             // 
@@ -106,6 +108,7 @@
             this.btnFilter.TabIndex = 5;
             this.btnFilter.Text = "Filter";
             this.btnFilter.UseVisualStyleBackColor = false;
+            this.btnFilter.Click += new System.EventHandler(this.btnFilter_Click);
             // 
             // dtpSampai
             // 
@@ -132,12 +135,13 @@
             this.label13.TabIndex = 2;
             this.label13.Text = "s/d";
             // 
-            // textBox1
+            // textBoxCari
             // 
-            this.textBox1.Location = new System.Drawing.Point(142, 24);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(316, 22);
-            this.textBox1.TabIndex = 1;
+            this.textBoxCari.Location = new System.Drawing.Point(142, 24);
+            this.textBoxCari.Name = "textBoxCari";
+            this.textBoxCari.Size = new System.Drawing.Size(316, 22);
+            this.textBoxCari.TabIndex = 1;
+            this.textBoxCari.TextChanged += new System.EventHandler(this.textBoxCari_TextChanged);
             // 
             // label2
             // 
@@ -171,7 +175,19 @@
             // dataGridDaftar
             // 
             this.dataGridDaftar.AllowUserToAddRows = false;
+            this.dataGridDaftar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataGridDaftar.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridDaftar.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dataGridDaftar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridDaftar.DefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridDaftar.Location = new System.Drawing.Point(3, 18);
             this.dataGridDaftar.MultiSelect = false;
             this.dataGridDaftar.Name = "dataGridDaftar";
@@ -179,13 +195,14 @@
             this.dataGridDaftar.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridDaftar.Size = new System.Drawing.Size(691, 198);
             this.dataGridDaftar.TabIndex = 0;
+            this.dataGridDaftar.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridDaftar_CellClick);
             // 
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.btnRefresh);
             this.groupBox3.Controls.Add(this.btnExport);
             this.groupBox3.Controls.Add(this.groupBox5);
-            this.groupBox3.Controls.Add(this.lbPetugas);
+            this.groupBox3.Controls.Add(this.data);
             this.groupBox3.Controls.Add(this.groupBox4);
             this.groupBox3.Location = new System.Drawing.Point(3, 354);
             this.groupBox3.Name = "groupBox3";
@@ -203,6 +220,7 @@
             this.btnRefresh.TabIndex = 2;
             this.btnRefresh.Text = "Refresh";
             this.btnRefresh.UseVisualStyleBackColor = false;
+            this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
             // 
             // btnExport
             // 
@@ -229,42 +247,44 @@
             this.pbFoto.Location = new System.Drawing.Point(6, 19);
             this.pbFoto.Name = "pbFoto";
             this.pbFoto.Size = new System.Drawing.Size(118, 96);
+            this.pbFoto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbFoto.TabIndex = 4;
             this.pbFoto.TabStop = false;
             // 
+            // data
+            // 
+            this.data.Controls.Add(this.lbPetugas);
+            this.data.Controls.Add(this.tbTindakanDetail);
+            this.data.Controls.Add(this.tbKeluhanDetail);
+            this.data.Controls.Add(this.label12);
+            this.data.Controls.Add(this.lblKeteranganRujuk);
+            this.data.Controls.Add(this.lblTindakLanjut);
+            this.data.Controls.Add(this.label9);
+            this.data.Controls.Add(this.label8);
+            this.data.Controls.Add(this.lblTanggal);
+            this.data.Location = new System.Drawing.Point(3, 19);
+            this.data.Name = "data";
+            this.data.Size = new System.Drawing.Size(374, 266);
+            this.data.TabIndex = 0;
+            this.data.TabStop = false;
+            this.data.Text = "Data Penanganan";
+            // 
             // lbPetugas
             // 
-            this.lbPetugas.Controls.Add(this.listBox1);
-            this.lbPetugas.Controls.Add(this.textBox3);
-            this.lbPetugas.Controls.Add(this.tbKeluhanDetail);
-            this.lbPetugas.Controls.Add(this.label12);
-            this.lbPetugas.Controls.Add(this.label11);
-            this.lbPetugas.Controls.Add(this.label10);
-            this.lbPetugas.Controls.Add(this.label9);
-            this.lbPetugas.Controls.Add(this.label8);
-            this.lbPetugas.Controls.Add(this.lblTanggal);
-            this.lbPetugas.Location = new System.Drawing.Point(3, 19);
+            this.lbPetugas.FormattingEnabled = true;
+            this.lbPetugas.Location = new System.Drawing.Point(254, 183);
             this.lbPetugas.Name = "lbPetugas";
-            this.lbPetugas.Size = new System.Drawing.Size(374, 266);
-            this.lbPetugas.TabIndex = 0;
-            this.lbPetugas.TabStop = false;
-            this.lbPetugas.Text = "Data Penanganan";
+            this.lbPetugas.Size = new System.Drawing.Size(114, 56);
+            this.lbPetugas.TabIndex = 8;
             // 
-            // listBox1
+            // tbTindakanDetail
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(254, 183);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(114, 56);
-            this.listBox1.TabIndex = 8;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(70, 114);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(243, 43);
-            this.textBox3.TabIndex = 7;
+            this.tbTindakanDetail.Location = new System.Drawing.Point(70, 114);
+            this.tbTindakanDetail.Multiline = true;
+            this.tbTindakanDetail.Name = "tbTindakanDetail";
+            this.tbTindakanDetail.ReadOnly = true;
+            this.tbTindakanDetail.Size = new System.Drawing.Size(243, 43);
+            this.tbTindakanDetail.TabIndex = 7;
             // 
             // tbKeluhanDetail
             // 
@@ -284,23 +304,23 @@
             this.label12.TabIndex = 5;
             this.label12.Text = "Petugas :";
             // 
-            // label11
+            // lblKeteranganRujuk
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(6, 197);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(74, 13);
-            this.label11.TabIndex = 4;
-            this.label11.Text = "Keterangan : -";
+            this.lblKeteranganRujuk.AutoSize = true;
+            this.lblKeteranganRujuk.Location = new System.Drawing.Point(6, 197);
+            this.lblKeteranganRujuk.Name = "lblKeteranganRujuk";
+            this.lblKeteranganRujuk.Size = new System.Drawing.Size(74, 13);
+            this.lblKeteranganRujuk.TabIndex = 4;
+            this.lblKeteranganRujuk.Text = "Keterangan : -";
             // 
-            // label10
+            // lblTindakLanjut
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(6, 170);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(84, 13);
-            this.label10.TabIndex = 3;
-            this.label10.Text = "Tindak Lanjut : -";
+            this.lblTindakLanjut.AutoSize = true;
+            this.lblTindakLanjut.Location = new System.Drawing.Point(6, 170);
+            this.lblTindakLanjut.Name = "lblTindakLanjut";
+            this.lblTindakLanjut.Size = new System.Drawing.Size(84, 13);
+            this.lblTindakLanjut.TabIndex = 3;
+            this.lblTindakLanjut.Text = "Tindak Lanjut : -";
             // 
             // label9
             // 
@@ -401,8 +421,8 @@
             this.groupBox3.ResumeLayout(false);
             this.groupBox5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pbFoto)).EndInit();
-            this.lbPetugas.ResumeLayout(false);
-            this.lbPetugas.PerformLayout();
+            this.data.ResumeLayout(false);
+            this.data.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
             this.ResumeLayout(false);
@@ -418,15 +438,15 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dataGridDaftar;
         private System.Windows.Forms.GroupBox groupBox5;
-        private System.Windows.Forms.GroupBox lbPetugas;
+        private System.Windows.Forms.GroupBox data;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.Label lblAngkatan;
         private System.Windows.Forms.Label lblProdi;
         private System.Windows.Forms.Label lblStatus;
         private System.Windows.Forms.Label lblNamaPasien;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label lblKeteranganRujuk;
+        private System.Windows.Forms.Label lblTindakLanjut;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label lblTanggal;
@@ -437,10 +457,10 @@
         private System.Windows.Forms.DateTimePicker dtpSampai;
         private System.Windows.Forms.DateTimePicker dtpDari;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBoxCari;
         private System.Windows.Forms.PictureBox pbFoto;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox tbTindakanDetail;
         private System.Windows.Forms.TextBox tbKeluhanDetail;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox lbPetugas;
     }
 }

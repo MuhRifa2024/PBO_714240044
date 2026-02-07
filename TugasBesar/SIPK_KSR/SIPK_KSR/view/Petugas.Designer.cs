@@ -287,6 +287,7 @@
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox1);
             this.Name = "Petugas";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "KSR";
             this.Load += new System.EventHandler(this.Petugas_Load);
             this.groupBox1.ResumeLayout(false);

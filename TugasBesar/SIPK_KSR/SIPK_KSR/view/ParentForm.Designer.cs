@@ -35,6 +35,7 @@
             this.anggotaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.penagananToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pasienKorbanToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dataPenanganToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -43,6 +44,7 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
             this.anggotaToolStripMenuItem,
+            this.dataPenanganToolStripMenuItem,
             this.penagananToolStripMenuItem,
             this.pasienKorbanToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
@@ -78,10 +80,10 @@
             // 
             // penagananToolStripMenuItem
             // 
-            this.penagananToolStripMenuItem.Font = new System.Drawing.Font("Futura Bk BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.penagananToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.penagananToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.penagananToolStripMenuItem.Name = "penagananToolStripMenuItem";
-            this.penagananToolStripMenuItem.Size = new System.Drawing.Size(91, 21);
+            this.penagananToolStripMenuItem.Size = new System.Drawing.Size(98, 21);
             this.penagananToolStripMenuItem.Text = "Penaganan";
             this.penagananToolStripMenuItem.Click += new System.EventHandler(this.penagananToolStripMenuItem_Click);
             // 
@@ -93,6 +95,15 @@
             this.pasienKorbanToolStripMenuItem.Size = new System.Drawing.Size(110, 21);
             this.pasienKorbanToolStripMenuItem.Text = "Pasien/Korban";
             this.pasienKorbanToolStripMenuItem.Click += new System.EventHandler(this.pasienKorbanToolStripMenuItem_Click);
+            // 
+            // dataPenanganToolStripMenuItem
+            // 
+            this.dataPenanganToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dataPenanganToolStripMenuItem.ForeColor = System.Drawing.Color.Red;
+            this.dataPenanganToolStripMenuItem.Name = "dataPenanganToolStripMenuItem";
+            this.dataPenanganToolStripMenuItem.Size = new System.Drawing.Size(102, 21);
+            this.dataPenanganToolStripMenuItem.Text = "Data Penangan";
+            this.dataPenanganToolStripMenuItem.Click += new System.EventHandler(this.dataPenanganToolStripMenuItem_Click);
             // 
             // ParentForm
             // 
@@ -124,5 +135,6 @@
         private System.Windows.Forms.ToolStripMenuItem anggotaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem penagananToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pasienKorbanToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem dataPenanganToolStripMenuItem;
     }
 }

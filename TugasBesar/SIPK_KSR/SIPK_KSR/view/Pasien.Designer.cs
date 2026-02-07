@@ -230,6 +230,7 @@
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox1);
             this.Name = "Pasien";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Pasien";
             this.Load += new System.EventHandler(this.Pasien_Load);
             this.groupBox1.ResumeLayout(false);
