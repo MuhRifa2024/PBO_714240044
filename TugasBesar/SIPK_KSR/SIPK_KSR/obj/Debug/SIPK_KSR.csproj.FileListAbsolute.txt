@@ -1,9 +1,3 @@
-C:\Users\user\PBO_714240044\TugasBesar\SIPK_KSR\SIPK_KSR\obj\Debug\SIPK_KSR.csproj.AssemblyReference.cache
-C:\Users\user\PBO_714240044\TugasBesar\SIPK_KSR\SIPK_KSR\obj\Debug\SIPK_KSR.Properties.Resources.resources
-C:\Users\user\PBO_714240044\TugasBesar\SIPK_KSR\SIPK_KSR\obj\Debug\SIPK_KSR.view.Pasien.resources
-C:\Users\user\PBO_714240044\TugasBesar\SIPK_KSR\SIPK_KSR\obj\Debug\SIPK_KSR.view.Petugas.resources
-C:\Users\user\PBO_714240044\TugasBesar\SIPK_KSR\SIPK_KSR\obj\Debug\SIPK_KSR.csproj.GenerateResource.cache
-C:\Users\user\PBO_714240044\TugasBesar\SIPK_KSR\SIPK_KSR\obj\Debug\SIPK_KSR.csproj.CoreCompileInputs.cache
 C:\Users\user\PBO_714240044\TugasBesar\SIPK_KSR\SIPK_KSR\bin\Debug\SIPK_KSR.exe.config
 C:\Users\user\PBO_714240044\TugasBesar\SIPK_KSR\SIPK_KSR\bin\Debug\SIPK_KSR.exe
 C:\Users\user\PBO_714240044\TugasBesar\SIPK_KSR\SIPK_KSR\bin\Debug\SIPK_KSR.pdb
@@ -41,8 +35,14 @@ C:\Users\user\PBO_714240044\TugasBesar\SIPK_KSR\SIPK_KSR\bin\Debug\System.Memory
 C:\Users\user\PBO_714240044\TugasBesar\SIPK_KSR\SIPK_KSR\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\user\PBO_714240044\TugasBesar\SIPK_KSR\SIPK_KSR\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\user\PBO_714240044\TugasBesar\SIPK_KSR\SIPK_KSR\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\user\PBO_714240044\TugasBesar\SIPK_KSR\SIPK_KSR\obj\Debug\SIPK_KSR.csproj.AssemblyReference.cache
+C:\Users\user\PBO_714240044\TugasBesar\SIPK_KSR\SIPK_KSR\obj\Debug\SIPK_KSR.Properties.Resources.resources
+C:\Users\user\PBO_714240044\TugasBesar\SIPK_KSR\SIPK_KSR\obj\Debug\SIPK_KSR.view.ParentForm.resources
+C:\Users\user\PBO_714240044\TugasBesar\SIPK_KSR\SIPK_KSR\obj\Debug\SIPK_KSR.view.Penanganan.resources
+C:\Users\user\PBO_714240044\TugasBesar\SIPK_KSR\SIPK_KSR\obj\Debug\SIPK_KSR.view.Pasien.resources
+C:\Users\user\PBO_714240044\TugasBesar\SIPK_KSR\SIPK_KSR\obj\Debug\SIPK_KSR.view.Petugas.resources
+C:\Users\user\PBO_714240044\TugasBesar\SIPK_KSR\SIPK_KSR\obj\Debug\SIPK_KSR.csproj.GenerateResource.cache
+C:\Users\user\PBO_714240044\TugasBesar\SIPK_KSR\SIPK_KSR\obj\Debug\SIPK_KSR.csproj.CoreCompileInputs.cache
 C:\Users\user\PBO_714240044\TugasBesar\SIPK_KSR\SIPK_KSR\obj\Debug\SIPK_KSR.csproj.Up2Date
 C:\Users\user\PBO_714240044\TugasBesar\SIPK_KSR\SIPK_KSR\obj\Debug\SIPK_KSR.exe
 C:\Users\user\PBO_714240044\TugasBesar\SIPK_KSR\SIPK_KSR\obj\Debug\SIPK_KSR.pdb
-C:\Users\user\PBO_714240044\TugasBesar\SIPK_KSR\SIPK_KSR\obj\Debug\SIPK_KSR.view.Penanganan.resources
-C:\Users\user\PBO_714240044\TugasBesar\SIPK_KSR\SIPK_KSR\obj\Debug\SIPK_KSR.view.ParentForm.resources

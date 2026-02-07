@@ -1,4 +1,5 @@
-﻿using SIPK_KSR.controller;
+﻿using MySql.Data.MySqlClient;
+using SIPK_KSR.controller;
 using SIPK_KSR.model;
 using System;
 using System.Collections.Generic;
@@ -154,6 +155,33 @@ namespace SIPK_KSR.view
         private void dgvAnggota_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void tbCari_TextChanged(object sender, EventArgs e)
+        {
+            string keyword = tbCari.Text.Trim();
+
+            if (keyword == "")
+            {
+                LoadData();
+                return;
+            }
+
+            // Query search
+            string sql =
+                "SELECT npm, nama_petugas, angkatan, jabatan, no_hp " +
+                "FROM petugas " +
+                "WHERE CAST(npm AS CHAR) LIKE @param " +
+                "OR nama_petugas LIKE @param " +
+                "OR CAST(angkatan AS CHAR) LIKE @param " +
+                "OR jabatan LIKE @param " +
+                "OR no_hp LIKE @param " +
+                "ORDER BY nama_petugas";
+
+            dgvAnggota.DataSource = koneksi.ShowDataParam(
+                sql,
+                new MySqlParameter("@param", "%" + keyword + "%")
+            );
         }
     }
 }

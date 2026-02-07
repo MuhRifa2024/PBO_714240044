@@ -207,6 +207,7 @@
             this.tbCari.Name = "tbCari";
             this.tbCari.Size = new System.Drawing.Size(260, 20);
             this.tbCari.TabIndex = 8;
+            this.tbCari.TextChanged += new System.EventHandler(this.tbCari_TextChanged);
             // 
             // label5
             // 

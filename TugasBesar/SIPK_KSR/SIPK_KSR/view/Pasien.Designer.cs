@@ -29,25 +29,25 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.dgvPasien = new System.Windows.Forms.DataGridView();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.btnClear = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
             this.txtCari = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.txtAngakatan = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.cmbStatus = new System.Windows.Forms.ComboBox();
             this.txtProdi = new System.Windows.Forms.TextBox();
             this.txtNama = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.dgvPasien = new System.Windows.Forms.DataGridView();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPasien)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvPasien)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -59,6 +59,19 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Data Pasien";
+            // 
+            // dgvPasien
+            // 
+            this.dgvPasien.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvPasien.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvPasien.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgvPasien.Location = new System.Drawing.Point(3, 16);
+            this.dgvPasien.Name = "dgvPasien";
+            this.dgvPasien.ReadOnly = true;
+            this.dgvPasien.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvPasien.Size = new System.Drawing.Size(795, 217);
+            this.dgvPasien.TabIndex = 0;
+            this.dgvPasien.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvPasien_CellClick);
             // 
             // groupBox2
             // 
@@ -84,6 +97,7 @@
             this.btnClear.TabIndex = 3;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = false;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // btnUpdate
             // 
@@ -96,6 +110,7 @@
             this.btnUpdate.TabIndex = 2;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = false;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // txtCari
             // 
@@ -103,6 +118,7 @@
             this.txtCari.Name = "txtCari";
             this.txtCari.Size = new System.Drawing.Size(256, 20);
             this.txtCari.TabIndex = 1;
+            this.txtCari.TextChanged += new System.EventHandler(this.txtCari_TextChanged);
             // 
             // label4
             // 
@@ -116,7 +132,7 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.textBox1);
+            this.groupBox3.Controls.Add(this.txtAngakatan);
             this.groupBox3.Controls.Add(this.label5);
             this.groupBox3.Controls.Add(this.cmbStatus);
             this.groupBox3.Controls.Add(this.txtProdi);
@@ -131,13 +147,34 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Form Pasien";
             // 
+            // txtAngakatan
+            // 
+            this.txtAngakatan.Location = new System.Drawing.Point(98, 152);
+            this.txtAngakatan.Name = "txtAngakatan";
+            this.txtAngakatan.Size = new System.Drawing.Size(87, 20);
+            this.txtAngakatan.TabIndex = 7;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(11, 156);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(72, 16);
+            this.label5.TabIndex = 6;
+            this.label5.Text = "Angkatan";
+            // 
             // cmbStatus
             // 
             this.cmbStatus.FormattingEnabled = true;
+            this.cmbStatus.Items.AddRange(new object[] {
+            "Mahasiswa",
+            "Dosen"});
             this.cmbStatus.Location = new System.Drawing.Point(98, 73);
             this.cmbStatus.Name = "cmbStatus";
             this.cmbStatus.Size = new System.Drawing.Size(146, 21);
             this.cmbStatus.TabIndex = 5;
+            this.cmbStatus.SelectedIndexChanged += new System.EventHandler(this.cmbStatus_SelectedIndexChanged);
             // 
             // txtProdi
             // 
@@ -183,35 +220,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Nama";
             // 
-            // dgvPasien
-            // 
-            this.dgvPasien.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dgvPasien.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvPasien.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvPasien.Location = new System.Drawing.Point(3, 16);
-            this.dgvPasien.Name = "dgvPasien";
-            this.dgvPasien.ReadOnly = true;
-            this.dgvPasien.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvPasien.Size = new System.Drawing.Size(795, 217);
-            this.dgvPasien.TabIndex = 0;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(11, 156);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(72, 16);
-            this.label5.TabIndex = 6;
-            this.label5.Text = "Angkatan";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(98, 152);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(87, 20);
-            this.textBox1.TabIndex = 7;
-            // 
             // Pasien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -223,12 +231,13 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "Pasien";
             this.Text = "Pasien";
+            this.Load += new System.EventHandler(this.Pasien_Load);
             this.groupBox1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPasien)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvPasien)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -249,7 +258,7 @@
         private System.Windows.Forms.TextBox txtProdi;
         private System.Windows.Forms.TextBox txtNama;
         private System.Windows.Forms.DataGridView dgvPasien;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtAngakatan;
         private System.Windows.Forms.Label label5;
     }
 }

@@ -47,5 +47,15 @@ namespace SIPK_KSR.view
         {
             Application.Exit();
         }
+
+        private void ParentForm_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void ParentForm_Resize(object sender, EventArgs e)
+        {
+            this.Refresh();
+        }
     }
 }

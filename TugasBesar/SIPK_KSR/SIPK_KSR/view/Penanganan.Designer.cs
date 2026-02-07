@@ -284,6 +284,8 @@
             // 
             // dtTanggal
             // 
+            this.dtTanggal.CustomFormat = "dd MMMM yyyy";
+            this.dtTanggal.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtTanggal.Location = new System.Drawing.Point(102, 19);
             this.dtTanggal.Name = "dtTanggal";
             this.dtTanggal.Size = new System.Drawing.Size(291, 20);

@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace SIPK_KSR.controller
 {
@@ -12,18 +13,36 @@ namespace SIPK_KSR.controller
     {
         Koneksi koneksi = new Koneksi();
 
-        public void Insert(M_PenangananPetugas pp)
+        public bool Insert(M_PenangananPetugas pp)
         {
-            koneksi.OpenConnection();
+            bool status = false;
+            try
+            {
+                koneksi.OpenConnection();
 
-            MySqlCommand cmd = new MySqlCommand(
-                "INSERT INTO penanganan_petugas (id_penanganan, npm_petugas) VALUES (@id_penanganan, @npm_petugas)");
+                MySqlCommand cmd = new MySqlCommand(
+                    "INSERT INTO penanganan_petugas (id_penanganan, npm_petugas) " +
+                    "VALUES (@id_penanganan, @npm_petugas)");
 
-            cmd.Parameters.AddWithValue("@id_penanganan", pp.idPenanganan);
-            cmd.Parameters.AddWithValue("@npm_petigas", pp.npm);
+                cmd.Parameters.AddWithValue("@id_penanganan", pp.idPenanganan);
+                cmd.Parameters.AddWithValue("@npm_petugas", pp.npm); 
+            
 
-            koneksi.ExecuteScalar(cmd);
-            koneksi.CloseConnection();
+                koneksi.ExecuteQuery(cmd);
+                status = true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error insert penanganan_petugas: " + ex.Message,
+                    "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                status = false;
+            }
+            finally
+            {
+                koneksi.CloseConnection();
+            }
+
+            return status;
         }
     }
 }

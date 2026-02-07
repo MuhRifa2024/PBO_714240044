@@ -1,10 +1,11 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using MySql.Data.MySqlClient;
+using System.Windows.Forms;
 
 namespace SIPK_KSR.controller
 {
@@ -59,6 +60,37 @@ namespace SIPK_KSR.controller
         {
             cmd.Connection = kon;
             return cmd.ExecuteScalar();
+        }
+
+        public DataTable ShowDataParam(string query, params MySqlParameter[] parameters)
+        {
+            DataTable table = new DataTable();
+
+            try
+            {
+                OpenConnection();
+
+                MySqlCommand cmd = new MySqlCommand(query, kon);
+
+                // Tambahkan parameter ke command
+                if (parameters != null)
+                {
+                    cmd.Parameters.AddRange(parameters);
+                }
+
+                MySqlDataAdapter adapter = new MySqlDataAdapter(cmd);
+                adapter.Fill(table);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
+            finally
+            {
+                CloseConnection();
+            }
+
+            return table;
         }
     }
 }

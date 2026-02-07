@@ -10,6 +10,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Globalization;
+using System.Threading;
 
 namespace SIPK_KSR.view
 {
@@ -25,6 +27,10 @@ namespace SIPK_KSR.view
             tbAngkatan.BackColor = Color.LightGray;
 
             LoadPetugas();
+
+            CultureInfo culture = new CultureInfo("id-ID");
+            Thread.CurrentThread.CurrentCulture = culture;
+            Thread.CurrentThread.CurrentUICulture = culture;
 
         }
 
@@ -113,6 +119,7 @@ namespace SIPK_KSR.view
             {
                 MessageBox.Show("Status wajib dipilih!", "Peringatan",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                cmbxStatus.Focus();
                 return false;
             }
 
@@ -120,6 +127,7 @@ namespace SIPK_KSR.view
             {
                 MessageBox.Show("Angkatan wajib diisi untuk mahasiswa!", "Peringatan",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                tbAngkatan.Focus();
                 return false;
             }
 
@@ -127,6 +135,7 @@ namespace SIPK_KSR.view
             {
                 MessageBox.Show("Keluhan wajib diisi!", "Peringatan",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                tbKeluhan.Focus();
                 return false;
             }
 
@@ -134,10 +143,10 @@ namespace SIPK_KSR.view
             {
                 MessageBox.Show("Tindakan wajib diisi!", "Peringatan",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                tbTindakan.Focus();
                 return false;
             }
 
-            // ← TAMBAHKAN: Validasi petugas
             if (clbPetugas.CheckedItems.Count == 0)
             {
                 MessageBox.Show("Pilih minimal 1 petugas yang menangani!", "Peringatan",
@@ -221,12 +230,12 @@ namespace SIPK_KSR.view
 
         private void cmbxStatus_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (cmbxStatus.SelectedItem.ToString() == "Mahasiswa")
+            if (cmbxStatus.SelectedIndex == 0)
             {
                 tbAngkatan.Enabled = true;
                 tbAngkatan.BackColor = Color.White;
             }
-            else
+            else if (cmbxStatus.SelectedIndex == 1)
             {
                 tbAngkatan.Enabled = false;
                 tbAngkatan.BackColor = Color.LightGray;
@@ -293,12 +302,12 @@ namespace SIPK_KSR.view
 
         private void cmbTindakLanjut_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (cmbTindakLanjut.SelectedItem.ToString() == "Selesai")
+            if (cmbTindakLanjut.SelectedIndex == 0)
             {
                 tbRujuk.Enabled = false;
                 tbRujuk.BackColor = Color.LightGreen;
             }
-            else
+            else if (cmbTindakLanjut.SelectedIndex == 1)
             {
                 tbRujuk.Enabled = true;
                 tbRujuk.BackColor = Color.White;
