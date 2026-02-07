@@ -158,6 +158,12 @@
     <Compile Include="model\M_Petugas.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="view\DataPenangan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\DataPenangan.Designer.cs">
+      <DependentUpon>DataPenangan.cs</DependentUpon>
+    </Compile>
     <Compile Include="view\ParentForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -191,6 +197,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="view\DataPenangan.resx">
+      <DependentUpon>DataPenangan.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="view\ParentForm.resx">
       <DependentUpon>ParentForm.cs</DependentUpon>
     </EmbeddedResource>
